@@ -13,13 +13,15 @@
   function loadResult() {
     const m = /[#&]r=([^&]+)/.exec(location.hash);
     if (m) {
-      const decoded = E.decodeResult(D.modules, decodeURIComponent(m[1]));
+      let s = '';
+      try { s = decodeURIComponent(m[1]); } catch (e) { /* malformed link: fall back to storage */ }
+      const decoded = E.decodeResult(D.modules, s);
       if (decoded) return decoded;
     }
     try {
       const v = localStorage.getItem(RESULT_KEY);
       const r = v ? JSON.parse(v) : null;
-      if (r && r.m1Answers && r.route && D.modules[r.route]) return r;
+      if (r && r.m1Answers && [D.form.routing.higher, D.form.routing.lower].includes(r.route)) return r;
     } catch (e) { /* storage unavailable */ }
     return null;
   }

@@ -11,7 +11,9 @@
   const params = new URLSearchParams(location.search);
   const ids = ['m1', 'm2-higher', 'm2-lower'];
   const labels = { m1: 'Module 1', 'm2-higher': 'Module 2 — Higher route', 'm2-lower': 'Module 2 — Lower route' };
-  const which = params.get('module') || 'm1';
+  // Whitelist the query value: it is reused in href attributes below.
+  const rawModule = params.get('module') || 'm1';
+  const which = rawModule === 'all' || ids.includes(rawModule) ? rawModule : 'm1';
   const annotated = params.get('key') === '1';
   const selected = which === 'all' ? ids : ids.includes(which) ? [which] : ['m1'];
 

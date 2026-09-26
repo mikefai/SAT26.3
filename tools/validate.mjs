@@ -12,15 +12,24 @@ export const MODULE_IDS = ['m1', 'm2-higher', 'm2-lower'];
 const LETTERS = ['A', 'B', 'C', 'D'];
 const BLANK = '______';
 const STIMULUS_TYPES = ['prose', 'poem', 'paired', 'notes', 'table', 'chart', 'sentence'];
+const RS_INTRO = 'While researching a topic, a student has taken the following notes:';
+const SEC_STEM = 'Which choice completes the text so that it conforms to the conventions of Standard English?';
+// Skills whose stem is fixed on the real exam format.
+export const STEMS = {
+  'SEC.BND': SEC_STEM,
+  'SEC.FSS': SEC_STEM,
+  'EOI.TRN': 'Which choice completes the text with the most logical transition?',
+  'INI.INF': 'Which choice most logically completes the text?',
+};
 
 const BANNED_PHRASES = [
   /all of the above/i, /none of the above/i, /college board/i, /bluebook/i, /official (sat|test|question)/i, /\bSAT\b/,
 ];
 // Culture-bound knowledge an international test taker may lack.
 const BANNED_TERMS = [
-  /thanksgiving/i, /halloween/i, /christmas/i, /easter/i, /diwali/i, /ramadan/i, /hanukkah/i, /independence day/i,
-  /super bowl/i, /baseball/i, /touchdown/i, /home run/i, /quarterback/i, /\bcricket match\b/i,
-  /\bcongress(ional)?\b/i, /\bsenat(e|or)\b/i, /supreme court/i, /electoral/i, /\bprom\b/i, /homecoming/i,
+  /thanksgiving/i, /halloween/i, /christmas/i, /\beaster\b/i, /diwali/i, /ramadan/i, /hanukkah/i, /independence day/i,
+  /super bowl/i, /baseball/i, /home run/i, /quarterback/i, /\bcricket match\b/i,
+  /\bcongress(ional)?\b/i, /\bsenat(e|or)\b/i, /supreme court/i, /electoral/i, /\bprom\b/i, /\bhomecoming (dance|game|week)\b/i,
   /\bdollars?\b/i, /\beuros?\b/i, /\byen\b/i, /\brupees?\b/i, /\bcents?\b/i, /[$€£¥]/,
 ];
 
@@ -113,6 +122,7 @@ export function validateModule(mod, moduleId, blueprint, taxonomy) {
     if (countBlanks(allText) > 1) E(id, 'more than one blank in stimulus');
     if (code === 'CAS.CTC' && (st.type !== 'paired' || !st.text1 || !st.text2)) E(id, 'CTC requires paired text1 and text2');
     if (st.type === 'paired' && code !== 'CAS.CTC') E(id, 'paired stimulus only allowed for CTC');
+    if (st.type === 'paired' && (/^\s*Text [12]\b/.test(st.text1 || '') || /^\s*Text [12]\b/.test(st.text2 || ''))) E(id, 'paired texts must not start with a Text 1/Text 2 label');
     if (code === 'INI.COEQ') {
       if (st.type === 'table') {
         const cols = st.table?.columns || [];
@@ -128,8 +138,13 @@ export function validateModule(mod, moduleId, blueprint, taxonomy) {
         }
       } else E(id, 'COEQ requires table or chart stimulus');
     }
+    if (STEMS[code] && it.stem !== STEMS[code]) E(id, `non-standard stem for ${code}`);
+    if (code === 'INI.INF' && !/_{6,}[.?!"”]?\s*$/.test(st.text || '')) E(id, 'INF passage must end with the blank');
+    if (st.type === 'poem' && (!st.title || !st.attribution)) E(id, 'poem requires title and fictional attribution');
     if (code === 'EOI.RS') {
-      if (st.type !== 'notes' || (st.notes || []).length < 3) E(id, 'RS requires notes stimulus with >= 3 notes');
+      const nn = (st.notes || []).length;
+      if (st.type !== 'notes' || nn < 4 || nn > 6) E(id, 'RS requires notes stimulus with 4-6 notes');
+      if (st.intro !== RS_INTRO) E(id, 'RS intro must be the standard sentence');
       if (!/The student wants to /.test(it.stem || '')) E(id, 'RS stem must state the goal ("The student wants to ...")');
     }
     if (st.type === 'notes' && code !== 'EOI.RS') E(id, 'notes stimulus only allowed for RS');

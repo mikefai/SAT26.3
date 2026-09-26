@@ -59,6 +59,7 @@
       <div class="tools">
         <button class="btn ghost" id="directions-btn" type="button">Directions</button>
         ${showTools ? `<button class="btn" id="strike-mode" type="button" aria-pressed="${S.strikeMode}">Cross out</button>` : ''}
+        <button class="btn ghost" id="shortcuts-btn" type="button" aria-pressed="${S.shortcuts !== false}" title="Keyboard shortcuts: A–D, 1–4, ←/→, M">Shortcuts</button>
       </div>
     </header>`;
   }
@@ -273,6 +274,7 @@
       <h2 id="dlg-title" style="margin-top:0">${title}</h2>${bodyHtml}
       <div class="actions">${buttons}</div></div>`;
     document.body.appendChild(wrap);
+    app.inert = true; // keep Tab and clicks inside the modal
     const b = wrap.querySelector('button');
     if (b) b.focus();
   }
@@ -280,6 +282,7 @@
     const d = document.querySelector('.dialog-backdrop');
     if (d) {
       d.remove();
+      app.inert = false;
       if (returnFocus && document.contains(returnFocus)) returnFocus.focus();
     }
   }
@@ -288,8 +291,10 @@
     const btn = document.getElementById('qnav-toggle');
     if (!pop || !btn) return;
     const open = force !== undefined ? force : pop.hidden;
+    const hadFocus = pop.contains(document.activeElement);
     pop.hidden = !open;
     btn.setAttribute('aria-expanded', String(open));
+    if (!open && hadFocus) btn.focus();
     if (open) { const c = pop.querySelector('.qcell.current') || pop.querySelector('.qcell'); if (c) c.focus(); }
   }
 
@@ -318,6 +323,7 @@
       case 'back-last': return go(mod().items.length - 1);
       case 'toggle-timer': S.timerHidden = !S.timerHidden; save(); return render('#toggle-timer');
       case 'strike-mode': S.strikeMode = !S.strikeMode; save(); return render('#strike-mode');
+      case 'shortcuts-btn': S.shortcuts = S.shortcuts === false; save(); return render('#shortcuts-btn');
       case 'directions-btn': return openDialog('Directions', DIRECTIONS, '<button type="button" class="btn primary" data-close>Close</button>');
       case 'submit-module': {
         const m = mod();
@@ -334,9 +340,21 @@
 
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape') { closeDialog(); toggleQnav(false); return; }
+    const dlg = document.querySelector('.dialog-backdrop .dialog');
+    if (dlg && e.key === 'Tab') {
+      // Trap focus within the open dialog.
+      const f = dlg.querySelectorAll('button');
+      const first = f[0], lastEl = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); lastEl.focus(); }
+      else if (!e.shiftKey && document.activeElement === lastEl) { e.preventDefault(); first.focus(); }
+      return;
+    }
     if (e.altKey || e.ctrlKey || e.metaKey) return;
-    if (S.view !== 'question' || document.querySelector('.dialog-backdrop')) return;
+    if (S.shortcuts === false) return; // WCAG 2.1.4: single-key shortcuts can be turned off
+    if (S.view !== 'question' || dlg) return;
     if (e.target.closest && e.target.closest('#qnav')) return;
+    // Let arrow keys scroll the passage pane normally.
+    if ((e.key === 'ArrowLeft' || e.key === 'ArrowRight') && e.target.closest && e.target.closest('.pane.left')) return;
     const k = e.key.length === 1 ? e.key.toUpperCase() : e.key;
     const L = E.LETTERS.includes(k) ? k : { 1: 'A', 2: 'B', 3: 'C', 4: 'D' }[k];
     if (L) { e.preventDefault(); return choose(L); }

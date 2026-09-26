@@ -61,6 +61,26 @@ test('flags culture-bound terms and banned phrases', () => {
   assert.match(errs, /banned phrase/);
 });
 
+test('does not flag ordinary words that contain banned substrings', () => {
+  const errs = errorsFor(m => { m.m1.items[0].stimulus.text += ' Rain fell on the eastern slopes during the homecoming of the geese.'; });
+  assert.doesNotMatch(errs, /culture-bound/);
+});
+
+test('enforces standard stems, INF blank at end, and RS note rules', () => {
+  const errs = errorsFor(m => {
+    m.m1.items[16].stem = 'Which option is grammatical?';
+    const inf = m.m1.items.find(it => it.skillCode === 'INI.INF');
+    inf.stimulus.text = inf.stimulus.text.replace('______', 'x') + ' ______ and more words after.';
+    const rs = m.m1.items.find(it => it.skillCode === 'EOI.RS');
+    rs.stimulus.notes = rs.stimulus.notes.slice(0, 3);
+    rs.stimulus.intro = 'Some notes:';
+  });
+  assert.match(errs, /non-standard stem for SEC\.BND/);
+  assert.match(errs, /INF passage must end with the blank/);
+  assert.match(errs, /4-6 notes/);
+  assert.match(errs, /RS intro must be the standard sentence/);
+});
+
 test('flags duplicate topics across modules and wrong distractor letters', () => {
   const errs = errorsFor(m => {
     m['m2-lower'].items[0].topic = m.m1.items[0].topic;

@@ -38,7 +38,7 @@ Then visit http://localhost:3000.
 | `print.html?module=m2-higher`, `?module=m2-lower` | **Deliverable 2:** student editions of both Module 2 variants |
 | `print.html?module=all&key=1` | Teacher edition: answer keys, ratings, target times, teardowns |
 
-Keyboard shortcuts in the test: A–D or 1–4 choose, ← → move between questions, M marks for review, Esc closes pop-ups.
+Keyboard shortcuts in the test: A–D or 1–4 choose, ← → move between questions, M marks for review, Esc closes pop-ups. Shortcuts can be switched off with the **Shortcuts** button in the top bar. The module timer pauses while the test page is closed and resumes when you return.
 
 Markdown copies of every edition are generated into `docs/student-edition/` and `docs/answer-key/`.
 

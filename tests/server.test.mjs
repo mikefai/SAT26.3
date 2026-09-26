@@ -35,7 +35,8 @@ test('serves the landing page and assets with correct types', async () => {
 });
 
 test('blocks traversal, tooling, and dot-folders', async () => {
-  for (const p of ['/../package.json', '/%2e%2e/package.json', '/js/../../server.mjs', '/tools/validate.mjs', '/tests/engine.test.mjs', '/.claude/plans', '/package.json']) {
+  for (const p of ['/../package.json', '/%2e%2e/package.json', '/js/../../server.mjs', '/tools/validate.mjs', '/tests/engine.test.mjs', '/.claude/plans', '/package.json',
+    '/js/..%5c..%5cpackage.json', '/js%5c..%5c..%5cserver.mjs', '/%5c.claude%5csettings.local.json', '/C:/Windows/win.ini']) {
     const r = await get(p);
     assert.equal(r.status, 404, p);
   }

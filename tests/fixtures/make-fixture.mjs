@@ -4,6 +4,7 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join, resolve } from 'node:path';
+import { STEMS } from '../../tools/validate.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
 const LETTERS = ['A', 'B', 'C', 'D'];
@@ -33,6 +34,8 @@ function stimulusFor(row) {
         intro: 'While researching a topic, a student has taken the following notes:',
         notes: [`${lead} A fictional survey studied river birds.`, 'The survey covered four valleys over two years.', 'Birds nested earlier in warmer valleys.', 'The team plans a third year of observation.'],
       };
+    case 'INI.INF':
+      return { type: 'prose', text: `${lead} ${FILLER} Taken together, the observations suggest that the pattern ______.` };
     default: {
       const blank = row.skillCode.startsWith('SEC.') || row.skillCode === 'EOI.TRN' ? ' The final result was ______ clear to everyone involved.' : '';
       return { type: 'prose', text: `${lead} ${FILLER}${blank}` };
@@ -54,7 +57,7 @@ export function makeModule(moduleId, blueprint, taxonomy) {
       stimulus: stimulusFor(row),
       stem: row.skillCode === 'EOI.RS'
         ? 'The student wants to summarize the survey. Which choice most effectively uses relevant information from the notes to accomplish this goal?'
-        : 'Which choice completes the text with the most logical and precise word or phrase?',
+        : STEMS[row.skillCode] || 'Which choice completes the text with the most logical and precise word or phrase?',
       options: Object.fromEntries(LETTERS.map(l => [l, `Option ${l} for ${row.id}`])),
       rationale: `Choice ${row.key} is correct for fixture item ${row.id} because the passage says so.`,
       distractors,

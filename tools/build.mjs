@@ -2,7 +2,7 @@
 // Bundles data/*.json into js/data.js (so the site works from file:// with no server)
 // and exports Markdown editions to docs/.
 // Usage: node tools/build.mjs [--modules-dir <dir>] [--no-docs]
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join, resolve } from 'node:path';
 
@@ -154,6 +154,14 @@ function main() {
   }
   writeFileSync(join(ROOT, 'docs/BLUEPRINT.md'), blueprintMd(data.form, data.blueprint, data.taxonomy));
   console.log('wrote docs/student-edition/*.md, docs/answer-key/*.md, docs/BLUEPRINT.md');
+
+  // Deployable static site: only public files, never tools/, tests/ or .claude/.
+  const dist = join(ROOT, 'dist');
+  rmSync(dist, { recursive: true, force: true });
+  for (const p of ['index.html', 'test.html', 'review.html', 'print.html', 'README.md', 'css', 'js', 'docs']) {
+    cpSync(join(ROOT, p), join(dist, p), { recursive: true });
+  }
+  console.log('wrote dist/');
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === resolve(process.argv[1])) main();

@@ -54,7 +54,7 @@
       "topic": "Fiction: a child learning to swim in a lake",
       "stimulus": {
         "type": "prose",
-        "attribution": "Adapted from Inés Duarte's story \"Past the Shallow Edge\" (fictional)",
+        "attribution": "Adapted from Soraya Duarte's story \"Past the Shallow Edge\" (fictional)",
         "text": "Tomasz waded in only to his knees, the cold lake water pulling goosebumps up his arms. His older cousin swam a slow circle nearby, calling out that the water only felt warm once you were in past your shoulders. Tomasz didn't quite believe her, but he was tired of standing at the shallow edge while everyone else glided past him, so he took a breath and ______ himself forward into water deep enough to swim in."
       },
       "stem": "Which choice completes the text with the most logical and precise word or phrase?",
@@ -132,7 +132,7 @@
       "stimulus": {
         "type": "poem",
         "title": "Night Market",
-        "attribution": "Original poem by Nadia Okafor (fictional)",
+        "attribution": "Original poem by Nadia Ferreira (fictional)",
         "text": "Lanterns unstitch the dark seam by seam,\noil hissing where the flatbread blisters,\na vendor calling the price of mangoes\nin three languages before the coins are cold.\n{u}Somewhere under all that noise, an old woman counts stitches into a sock, waiting for no customer at all.{/u}\nThe market does not pause for her patience;\nit moves like a river around a stone,\nloud on every side of her stillness."
       },
       "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
@@ -176,20 +176,20 @@
       "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
       "options": {
         "A": "It explains the repeated natural process that produces the extreme flatness described earlier in the text.",
-        "B": "It gives one example among several types of desert basins discussed in the text.",
-        "C": "It contradicts the passage's claim that salt flats are extremely flat.",
+        "B": "It offers evidence that salt flats are flatter than any other surface on Earth.",
+        "C": "It restates the process of mineral deposition described in the previous sentence without adding new information.",
         "D": "It shifts the focus from how salt flats form to how travelers use them."
       },
       "key": "A",
       "rationale": "The sentence describes the cycle of flooding and evaporation that levels high and low spots, directly explaining the mechanism behind the extreme flatness the passage opens and closes with.",
       "distractors": {
         "B": {
-          "trap": "too-narrow",
-          "explanation": "The text discusses one process in one kind of basin, not multiple types of desert basins being compared."
+          "trap": "too-extreme",
+          "explanation": "The underlined sentence explains the leveling process itself; the passage's closing claim is only that salt flats are \"one of the flattest\" surfaces, so \"flatter than any other surface on Earth\" overstates what either sentence supports."
         },
         "C": {
-          "trap": "contradicts-text",
-          "explanation": "The sentence supports the claim of extreme flatness by explaining how it forms; it does not contradict it."
+          "trap": "wrong-function",
+          "explanation": "The underlined sentence describes a different process, gradual leveling through repeated flooding and evaporation, not mineral deposition, and it adds the new point that this repetition wears down high spots as well as filling low ones."
         },
         "D": {
           "trap": "out-of-scope",
@@ -231,7 +231,7 @@
           "explanation": "This reverses the two positions: it is Osei, not Lindqvist, who attributes the correlation to study habits."
         },
         "C": {
-          "trap": "too-broad",
+          "trap": "out-of-scope",
           "explanation": "Osei questions whether homework causes score gains but never proposes eliminating homework or replacing it with more classroom instruction."
         }
       }
@@ -249,29 +249,29 @@
       "stimulus": {
         "type": "paired",
         "text1": "Biologist Dana Kowalczyk argues that a zebra's stripes evolved primarily to reduce bites from blood-feeding flies. She points to experiments in which horses fitted with striped coverings were landed on far less often by flies than horses in solid-colored coverings, and she suggests the contrast between light and dark bands disrupts the polarized light patterns flies use to find a landing surface.",
-        "text2": "Biologist Femi Adeyemi maintains that stripes primarily help zebras avoid detection by predators moving through tall, sunlit grass, where alternating light and dark bands break up the animal's outline. He notes that fly-landing experiments have also found reduced landings on animals wearing several other high-contrast patterns, not stripes alone, which he says weakens any claim that stripe pattern specifically explains the effect."
+        "text2": "Biologist Hana Iwata maintains that stripes primarily help zebras avoid detection by predators moving through tall, sunlit grass, where alternating light and dark bands break up the animal's outline. She notes that fly-landing experiments have also found reduced landings on animals wearing several other high-contrast patterns, not stripes alone, which she says weakens any claim that stripe pattern specifically explains the effect."
       },
-      "stem": "Which choice best describes a difference in how Kowalczyk and Adeyemi would most likely interpret a new finding that fly landings decrease on any animal covering with strong light-dark contrast, regardless of its pattern?",
+      "stem": "Which choice best describes a difference in how Kowalczyk and Iwata would most likely interpret a new finding that fly landings decrease on any animal covering with strong light-dark contrast, regardless of its pattern?",
       "options": {
-        "A": "Kowalczyk would reject the finding outright, while Adeyemi would use it to argue that predator avoidance, not flies, drives stripe evolution.",
+        "A": "Kowalczyk would reject the finding outright, while Iwata would use it to argue that predator avoidance, not flies, drives stripe evolution.",
         "B": "Both researchers would treat the finding as unrelated to their hypotheses, since it concerns contrast rather than stripes specifically.",
-        "C": "Adeyemi would see the finding as undermining his own hypothesis about predator avoidance.",
-        "D": "Kowalczyk would likely see the finding as support for her hypothesis only if the contrast resembles stripe width specifically, while Adeyemi would treat it as confirming his doubt that stripes uniquely explain reduced fly landings."
+        "C": "Iwata would see the finding as undermining her own hypothesis about predator avoidance.",
+        "D": "Kowalczyk would likely view the finding as consistent with her proposed mechanism, since she credits light-dark contrast, while Iwata would treat it as further evidence that stripes are not uniquely effective against flies."
       },
       "key": "D",
-      "rationale": "Kowalczyk's argument depends on stripe width disrupting light patterns, so a pattern-general effect would support her view only if it resembled that mechanism; Adeyemi already cites this exact kind of finding as evidence against a stripe-specific explanation.",
+      "rationale": "Kowalczyk attributes reduced landings to light-dark contrast disrupting polarized light, so a contrast-general effect fits her mechanism; Iwata already cites such findings to argue that stripes are not specifically responsible.",
       "distractors": {
         "A": {
           "trap": "too-extreme",
-          "explanation": "Nothing suggests Kowalczyk would reject the finding outright rather than qualify her claim, and the passage does not say Adeyemi would use it to argue for predator avoidance specifically."
+          "explanation": "Nothing suggests Kowalczyk would reject the finding outright rather than see it as consistent with her mechanism, and the passage does not say Iwata would use it to argue for predator avoidance specifically."
         },
         "B": {
           "trap": "contradicts-text",
-          "explanation": "The finding is directly related to both hypotheses, especially Adeyemi's point that contrast-based effects extend beyond stripes."
+          "explanation": "The finding is directly related to both hypotheses, especially Iwata's point that contrast-based effects extend beyond stripes."
         },
         "C": {
           "trap": "reverses-relationship",
-          "explanation": "Adeyemi's hypothesis concerns predator avoidance, not fly landings, so a finding about fly landings and contrast would not undermine his own hypothesis; it undermines the rival fly hypothesis instead."
+          "explanation": "Iwata's hypothesis concerns predator avoidance, not fly landings, so a finding about fly landings and contrast would not undermine her own hypothesis; it undermines the rival fly hypothesis instead."
         }
       }
     },
@@ -287,7 +287,7 @@
       "topic": "Fiction: a gardener before a storm",
       "stimulus": {
         "type": "prose",
-        "attribution": "Adapted from Yusuf Bello's story \"The Greenish Sky\" (fictional)",
+        "attribution": "Adapted from Mateus Bello's story \"The Greenish Sky\" (fictional)",
         "text": "Before the first thunderclap sounded, Old Ren went out to stake down his tomato plants. He had lived by the coast long enough to read the sky: a greenish tint over the western hills, gulls flying inland instead of out to sea, the sudden hush of insects that usually sang from the hedges. He worked quickly, tying twine to each fragile stem, because he knew that the plants he had tended all spring could be flattened in minutes once the wind arrived."
       },
       "stem": "Which choice best states the main idea of the text?",
@@ -361,7 +361,7 @@
       "band": "Medium",
       "rating": 3,
       "targetSeconds": 60,
-      "topic": "A fictional study of plate colour and appetite",
+      "topic": "A fictional study of plate color and appetite",
       "stimulus": {
         "type": "prose",
         "text": "A researcher hypothesizes that the color of a dinner plate can influence how much food a person serves themselves, with warm colors like red subtly reducing portion sizes by increasing a diner's awareness of the contrast between the food and the plate."
@@ -402,12 +402,12 @@
       "topic": "A fictional ancient library's catalogue",
       "stimulus": {
         "type": "prose",
-        "text": "Historians studying the catalogue of the ancient Kallitheia library, a fictional institution described in surviving trade records, note that its clerks tracked not only a scroll's title and author but its physical condition and its relationship to other works in the collection. Some scholars argue that this catalogue reveals an unusually systematic effort to help future readers locate related material even after an original scroll had been lost or damaged."
+        "text": "Historians studying the catalogue of the ancient Kallitheia library note that its clerks tracked not only a scroll's title and author but its physical condition and its relationship to other works in the collection. Some scholars argue that this catalogue reveals an unusually systematic effort to help future readers locate related material even after an original scroll had been lost or damaged."
       },
       "stem": "Which quotation from the catalogue would most directly support the claim that the clerks tried to help future readers find related material even when a scroll was lost?",
       "options": {
-        "A": "'Scroll 88, a hymn collection, in fair condition, stored on the third shelf from the east wall.'",
-        "B": "'Scroll 12 was copied twice due to its popularity among visiting scholars.'",
+        "A": "'Scroll 88, a hymn collection, water-stained along its lower edge; its companion volume, scroll 89, is shelved beside it.'",
+        "B": "'Scroll 12, copied from an older original now lost in the flood; the copy omits the final chapter.'",
         "C": "'Scroll 114, on the grafting of fruit trees, missing since the flood; see scroll 240, which cites its main arguments at length.'",
         "D": "'Scroll 301 was removed from the catalogue after its contents were judged inaccurate.'"
       },
@@ -415,12 +415,12 @@
       "rationale": "This entry explicitly notes that a scroll is missing and directs future readers to another scroll preserving its arguments, exactly the kind of cross-referencing the claim describes.",
       "distractors": {
         "A": {
-          "trap": "true-but-irrelevant",
-          "explanation": "This entry records condition and shelf location, not any connection to a lost scroll or a related text."
+          "trap": "half-right",
+          "explanation": "This entry shows a relationship between two scrolls, but neither is described as lost or damaged, so it does not show the clerks helping readers find related material after a loss."
         },
         "B": {
-          "trap": "true-but-irrelevant",
-          "explanation": "This entry notes popularity and copying, which has nothing to do with helping readers find related material after a loss."
+          "trap": "half-right",
+          "explanation": "This entry notes an original is lost, but it only describes a copy's own missing chapter, not any cross-reference directing readers to another scroll with related content."
         },
         "D": {
           "trap": "weakens-claim",
@@ -515,7 +515,7 @@
         "A": "shift steadily earlier each year as the comet's orbit gradually decays",
         "B": "vary widely because the debris trail moves unpredictably through space",
         "C": "depend mainly on how bright the comet itself appears that year",
-        "D": "fall on nearly the same calendar dates, since Earth reaches the debris trail's location at the same point in its orbit each year"
+        "D": "fall on nearly the same calendar dates each year"
       },
       "key": "D",
       "rationale": "The passage explains that Earth's fixed yearly orbit crosses a debris trail that stays in roughly the same place, so it logically follows that the shower's peak would recur around the same dates each year.",
@@ -546,21 +546,21 @@
       "topic": "A fictional study of dawn fish-market prices",
       "stimulus": {
         "type": "prose",
-        "text": "Economist Ines Barbosa tracked prices at a coastal fish market where boats arrive at irregular times each dawn, sometimes clustered together and sometimes hours apart. She found that when several boats arrived within the same half hour, prices for common fish fell sharply within minutes of the first sale, but when boats trickled in one at a time across several hours, prices for the same fish stayed high through most of the morning, even though the total volume of fish sold that day was similar in both patterns. Barbosa concludes that buyers set prices less according to the total supply available over a morning than according to ______."
+        "text": "Economist Ingrid Barbosa tracked prices at a coastal fish market where boats arrive at irregular times each dawn, sometimes clustered together and sometimes hours apart. She found that when several boats arrived within the same half hour, prices for common fish fell sharply within minutes of the first sale, but when boats trickled in one at a time across several hours, prices for the same fish stayed high through most of the morning, even though the total volume of fish sold that day was similar in both patterns. Barbosa concludes that buyers set prices less according to the total supply available over a morning than according to ______."
       },
       "stem": "Which choice most logically completes the text?",
       "options": {
-        "A": "the reputation of the particular boats that arrive earliest each dawn",
+        "A": "the prices buyers paid for the same fish on the previous morning",
         "B": "the total volume of fish sold across the entire morning",
         "C": "how far each boat traveled before reaching the market that morning",
-        "D": "how much fish appears to be available to them at the moment they are deciding what to pay"
+        "D": "how much fish appears to be available at the moment they buy"
       },
       "key": "D",
-      "rationale": "Barbosa's finding is that prices depend on whether boats cluster together or trickle in, not on total volume, which points to buyers reacting to how much supply seems available right when they are buying.",
+      "rationale": "Barbosa's finding is that prices depend on whether boats cluster together or trickle in, not on total volume, which points to buyers reacting to how much supply seems available right when they buy.",
       "distractors": {
         "A": {
           "trap": "plausible-unsupported",
-          "explanation": "Boat reputation might plausibly affect prices in general, but the passage never mentions or measures it, so it cannot be the pattern Barbosa's data supports."
+          "explanation": "Previous-day prices might plausibly anchor buyer expectations, but the passage never mentions or measures comparisons to prior days, so this cannot be the pattern Barbosa's data supports."
         },
         "B": {
           "trap": "contradicts-text",
@@ -584,7 +584,7 @@
       "topic": "Parrotfish producing sand on coral reefs",
       "stimulus": {
         "type": "prose",
-        "text": "Parrotfish spend much of each day scraping algae from coral with their beak-like teeth ______ swallow bits of coral rock along with the algae and grind it into fine sand inside their guts."
+        "text": "Parrotfish spend much of each day scraping algae from coral with their beak-like teeth ______ swallow bits of coral rock along with the algae and grind the rock into fine sand inside their guts."
       },
       "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
       "options": {
@@ -746,7 +746,7 @@
         "D": "had produced"
       },
       "key": "A",
-      "rationale": "The subject of the verb is the plural noun 'dunes'; despite the intervening singular nouns 'wind,' 'person,' and 'footsteps,' the verb must agree with 'dunes,' so the plural form 'produce' is correct.",
+      "rationale": "The subject of the verb is the plural noun 'dunes'; despite the intervening singular nouns 'wind' and 'person,' the verb must agree with 'dunes,' so the plural form 'produce' is correct.",
       "distractors": {
         "B": {
           "trap": "agreement-error",
@@ -771,10 +771,10 @@
       "band": "Medium",
       "rating": 3,
       "targetSeconds": 60,
-      "topic": "Recycling aluminium",
+      "topic": "Recycling aluminum",
       "stimulus": {
         "type": "prose",
-        "text": "Aluminium is unusual among common metals because recycling it uses only a small fraction of the energy required to refine new metal from ore, which is why municipalities that collect used cans and foil separately from other waste ______ far less energy overall than those that send all metal to a single mixed recycling stream."
+        "text": "Aluminum is unusual among common metals because recycling it uses only a small fraction of the energy required to refine new metal from ore, which is why municipalities that recycle used cans and foil rather than sending them to landfills ______ far less energy overall than those that do not."
       },
       "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
       "options": {
@@ -784,7 +784,7 @@
         "D": "use"
       },
       "key": "D",
-      "rationale": "The subject 'municipalities' is plural, and the sentence states a general, present-tense fact, so the plural present-tense verb 'use' is required despite the intervening clause 'that collect used cans and foil separately from other waste.'",
+      "rationale": "The subject 'municipalities' is plural, and the sentence states a general, present-tense fact, so the plural present-tense verb 'use' is required despite the intervening clause 'that recycle used cans and foil rather than sending them to landfills.'",
       "distractors": {
         "A": {
           "trap": "agreement-error",
@@ -812,7 +812,7 @@
       "topic": "Glowing fungi",
       "stimulus": {
         "type": "prose",
-        "text": "Several species of fungi produce a faint greenish light through a chemical reaction inside ______ cells, a phenomenon that early foresters sometimes mistook for embers smoldering in rotten logs."
+        "text": "Several species of fungi that grow on decaying wood produce a faint greenish light through a chemical reaction inside ______ cells, a phenomenon that early foresters sometimes mistook for embers smoldering in rotten logs."
       },
       "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
       "options": {
@@ -894,7 +894,7 @@
       "options": {
         "A": "However",
         "B": "For example",
-        "C": "Therefore",
+        "C": "In other words",
         "D": "Similarly"
       },
       "key": "A",
@@ -906,7 +906,7 @@
         },
         "C": {
           "trap": "wrong-logical-relation",
-          "explanation": "The inability to cook after sunset is not a consequence of how solar cookers work; it is a separate, contrasting limitation."
+          "explanation": "The second sentence does not restate the first; it introduces a limitation that contrasts with the benefit just described."
         },
         "D": {
           "trap": "wrong-logical-relation",
@@ -1002,13 +1002,13 @@
       "topic": "Mosaic art from broken tiles",
       "stimulus": {
         "type": "prose",
-        "text": "Some mosaic artists deliberately break new ceramic tiles into irregular fragments rather than purchasing pre-cut mosaic pieces, arguing that uneven edges catch light in ways that uniform pieces cannot. Other artists insist that hand-cutting each fragment slows a project down so much that the technique is impractical for large public installations. ______, many muralists now use a hybrid method, hand-breaking tiles only for a mosaic's focal points and filling the rest of the design with pre-cut pieces."
+        "text": "Some mosaic artists deliberately break new ceramic tiles into irregular fragments rather than purchasing pre-cut mosaic pieces, arguing that uneven edges catch light in ways that uniform pieces cannot. Other artists insist that hand-cutting each fragment slows a project down so much that the technique is impractical for large public installations. ______, many muralists working on large installations now use a hybrid method, hand-breaking tiles only for a mosaic's focal points, where catching light matters most, and filling the rest of the design with pre-cut pieces to save time."
       },
       "stem": "Which choice completes the text with the most logical transition?",
       "options": {
         "A": "In other words",
         "B": "As a result",
-        "C": "By contrast",
+        "C": "For instance",
         "D": "Similarly"
       },
       "key": "B",
@@ -1020,7 +1020,7 @@
         },
         "C": {
           "trap": "wrong-logical-relation",
-          "explanation": "The hybrid method is not simply a contrasting position; it results from and combines elements of the two positions already described."
+          "explanation": "The hybrid method is not an example of either position already described; it is a response to the tension between them."
         },
         "D": {
           "trap": "wrong-logical-relation",
@@ -1042,7 +1042,7 @@
         "type": "notes",
         "intro": "While researching a topic, a student has taken the following notes:",
         "notes": [
-          "Bamboo is a grass, not a tree, and some species can grow more than one meter in a single day under ideal conditions.",
+          "Bamboo is a grass, not a tree, and some species can grow nearly one meter in a single day under ideal conditions.",
           "Unlike trees, bamboo culms (stems) reach their full diameter within weeks and then only grow taller, never thicker.",
           "Rapid growth is possible because bamboo cells are pre-formed in a tightly packed stack inside each new shoot and simply expand with water pressure rather than dividing repeatedly.",
           "Bamboo groves are connected below ground by a shared root system, so a grove can send up dozens of new shoots at once each growing season.",
@@ -1178,29 +1178,30 @@
         "intro": "While researching a topic, a student has taken the following notes:",
         "notes": [
           "Engineer Talia Reyes designed a footbridge using a tensioned steel cable deck, which flexes noticeably underfoot but uses roughly 40 percent less steel than a rigid truss design of the same span.",
-          "Engineer Dov Amrani designed a rigid truss footbridge for a similar span that costs more in materials but does not sway or bounce, an important feature for a bridge located near a hospital.",
+          "Engineer Dov Amrani designed a rigid truss footbridge for a similar span that costs more in materials but does not sway or bounce.",
           "Reyes's cable-deck design requires periodic retensioning of the cables every few years to keep the deck level.",
           "Amrani's truss design was assembled off-site in sections and lifted into place in a single day, reducing disruption to traffic below.",
-          "Both designs were tested to hold several times the maximum expected pedestrian load before any visible strain appeared."
+          "Both designs were tested to hold several times the maximum expected pedestrian load before any visible strain appeared.",
+          "Footbridges near hospitals are often crossed by patients using walkers or wheelchairs, for whom a bouncing deck can be unsafe."
         ]
       },
       "stem": "The student wants to explain why an engineer might choose Amrani's design over Reyes's design for a footbridge located near a hospital. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
       "options": {
         "A": "Amrani's truss design was assembled off-site and lifted into place in a single day, reducing disruption to traffic below.",
         "B": "Reyes's design uses roughly 40 percent less steel than a rigid truss design of the same span.",
-        "C": "Amrani's rigid truss design does not sway or bounce, a feature that matters near a hospital, whereas Reyes's cable-deck design flexes noticeably underfoot.",
+        "C": "Amrani's rigid truss does not sway or bounce, whereas Reyes's cable deck flexes noticeably underfoot, which matters for patients using walkers or wheelchairs near a hospital.",
         "D": "Both designs were tested to hold several times the maximum expected pedestrian load before showing visible strain."
       },
       "key": "C",
-      "rationale": "The notes state directly that Amrani's non-swaying, non-bouncing design is important near a hospital, and contrasting it with Reyes's noticeably flexing deck gives the precise reason to prefer Amrani's design in that location.",
+      "rationale": "Note 6 states that patients using walkers or wheelchairs near a hospital find a bouncing deck unsafe, and contrasting Amrani's non-swaying truss with Reyes's noticeably flexing cable deck gives the precise reason to prefer Amrani's design in that location.",
       "distractors": {
         "A": {
           "trap": "fails-goal",
           "explanation": "Faster, less disruptive assembly is a construction advantage, not a reason tied to the hospital location the student wants to explain."
         },
         "B": {
-          "trap": "misuses-notes",
-          "explanation": "This is a reason favoring Reyes's design; using it to justify choosing Amrani's design instead reverses what the note actually supports."
+          "trap": "fails-goal",
+          "explanation": "This describes an advantage of Reyes's design, not a reason to prefer Amrani's, so it does not explain why an engineer would choose Amrani's design instead."
         },
         "D": {
           "trap": "fails-goal",

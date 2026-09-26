@@ -71,8 +71,8 @@
           "explanation": "\"A flaw to illustrate\" does not make sense here; nothing in the text suggests she is demonstrating or depicting the flaw."
         },
         "B": {
-          "trap": "common-meaning",
-          "explanation": "Repair is what she does to the bowl overall, but the sentence is specifically about how she treats the flaw itself, which she leaves visible rather than erasing."
+          "trap": "illogical-in-context",
+          "explanation": "Repair is what she does to the bowl overall, but the sentence is specifically about how she treats the flaw itself, which she leaves visible rather than erasing, so treating the flaw itself as something to \"repair\" does not fit the contrast the sentence sets up."
         },
         "C": {
           "trap": "wrong-connotation",
@@ -177,7 +177,7 @@
       "stem": "Which choice best states the main purpose of the text?",
       "options": {
         "A": "To argue that winter permanently changes the character of a river",
-        "B": "To suggest that beneath its frozen surface, the river continues its motion and purpose unchanged",
+        "B": "To suggest that beneath its frozen surface, the river continues its essential motion and purpose",
         "C": "To describe the process by which ice forms on a moving river",
         "D": "To contrast the sound of a frozen river with the sound of the sea"
       },
@@ -210,7 +210,7 @@
       "topic": "Tardigrades surviving desiccation",
       "stimulus": {
         "type": "prose",
-        "text": "Tardigrades, microscopic animals that live in moss and lichen, can survive losing nearly all the water in their bodies. As a pond dries, a tardigrade curls into a compact form called a tun, replacing lost water with a sugar-like molecule that keeps its internal structures from collapsing. {u}In this state, its metabolism slows to a small fraction of normal, and it can remain dormant for years, only reviving when moisture returns.{/u} Researchers still debate how completely the tun's internal chemistry halts, but no one disputes that the animal can wait, sometimes for a very long time, for the world to become wet again."
+        "text": "Tardigrades, microscopic animals that live in moss and lichen, can survive losing nearly all the water in their bodies. As its moss dries out, a tardigrade curls into a compact form called a tun, producing protective molecules that keep its internal structures from collapsing. {u}In this state, its metabolism slows to a small fraction of normal, and it can remain dormant for years, only reviving when moisture returns.{/u} Researchers still debate how completely the tun's internal chemistry halts, but no one disputes that the animal can wait, sometimes for a very long time, for the world to become wet again."
       },
       "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
       "options": {
@@ -248,8 +248,8 @@
       "topic": "Car-free city streets: two researchers' views",
       "stimulus": {
         "type": "paired",
-        "text1": "Text 1\nUrban researcher Dario Colacino argues that removing cars from city centers mainly benefits public health: fewer vehicle emissions lower rates of respiratory illness, and the extra space once used for parking can become small parks that encourage walking. For Colacino, the primary value of car-free streets is measured in the air residents breathe and the steps they take.",
-        "text2": "Text 2\nEconomist Priya Nandakumar contends that the strongest case for car-free streets is commercial. When through-traffic disappears, foot traffic to small shops rises, since pedestrians linger and browse in ways that drivers passing by do not. Nandakumar points to surveys showing that shopkeepers on newly car-free blocks report higher weekday sales within a year."
+        "text1": "Urban researcher Dario Colacino argues that removing cars from city centers mainly benefits public health: fewer vehicle emissions lower rates of respiratory illness, and the extra space once used for parking can become small parks that encourage walking. For Colacino, the primary value of car-free streets is measured in the air residents breathe and the steps they take.",
+        "text2": "Economist Priya Nandakumar contends that the strongest case for car-free streets is commercial. When through-traffic disappears, foot traffic to small shops rises, since pedestrians linger and browse in ways that drivers passing by do not. Nandakumar points to surveys showing that shopkeepers on newly car-free blocks report higher weekday sales within a year."
       },
       "stem": "Which choice best describes a difference in how the authors of Text 1 and Text 2 view the primary benefit of car-free streets?",
       "options": {
@@ -287,29 +287,29 @@
       "topic": "Where the Moon's water came from: two hypotheses",
       "stimulus": {
         "type": "paired",
-        "text1": "Text 1\nPlanetary scientist Ilse Vantongeren proposes that the water detected in lunar minerals arrived long after the Moon formed, delivered by the same population of icy comets and water-rich asteroids that struck the young Moon over hundreds of millions of years. In her model, the Moon began essentially dry, and any water now locked in its rocks reflects this later bombardment rather than the Moon's original composition.",
-        "text2": "Text 2\nGeochemist Femi Okoro counters that trace water sealed inside volcanic glass beads, formed when magma erupted onto the lunar surface, could not have survived contact with an outside impactor without being lost to vaporization. He argues instead that this water was already dissolved in the Moon's interior when it formed and simply rose to the surface during early volcanic activity, meaning the Moon was never entirely dry."
+        "text1": "Planetary scientist Ilse Vantongeren proposes that the water detected in lunar minerals arrived long after the Moon formed, delivered by the same population of icy comets and water-rich asteroids that struck the young Moon over hundreds of millions of years. In her model, the Moon began essentially dry, and any water now locked in its rocks reflects this later bombardment rather than the Moon's original composition.",
+        "text2": "Geochemist Femi Okoro counters that trace water sealed inside volcanic glass beads, formed when magma erupted onto the lunar surface, could not have survived contact with an outside impactor without being lost to vaporization. He argues instead that this water was already dissolved in the Moon's interior when it formed and simply rose to the surface during early volcanic activity, meaning the Moon was never entirely dry."
       },
       "stem": "Based on the texts, how would Femi Okoro most likely respond to Ilse Vantongeren's claim that the Moon began essentially dry?",
       "options": {
-        "A": "He would agree, since volcanic glass beads could only trap water delivered by later impacts",
-        "B": "He would agree that impacts added most lunar water, but argue the timing was earlier than Vantongeren proposes",
-        "C": "He would disagree, pointing to water sealed in volcanic glass as evidence that water was present in the Moon's interior from its formation",
-        "D": "He would argue that the disagreement cannot be resolved without samples from the Moon's far side"
+        "A": "He would accept the claim but argue that asteroids, rather than comets, delivered most of the water later found in lunar rocks",
+        "B": "He would reject the claim on the grounds that impacts vaporize water and therefore could not have delivered any of the Moon's water",
+        "C": "He would reject the claim, arguing that at least some of the Moon's water was already present in its interior when it formed",
+        "D": "He would grant that the lunar surface began dry but argue that the glass beads are too rare to settle where lunar water came from"
       },
-      "rationale": "Okoro argues that water trapped in volcanic glass was already dissolved in the Moon's interior when it formed and rose up through early volcanism, directly contradicting Vantongeren's claim that the Moon began dry and gained water only from later impacts.",
+      "rationale": "Okoro argues that water trapped in volcanic glass was already dissolved in the Moon's interior when it formed and rose up through early volcanism, so he would reject Vantongeren's claim that the Moon began essentially dry, pointing to that interior water as evidence it was present from formation.",
       "distractors": {
         "A": {
           "trap": "contradicts-text",
-          "explanation": "Okoro argues the opposite: that glass-trapped water could not have survived an impact and therefore must predate any bombardment, not that it proves impacts delivered the water."
+          "explanation": "This has Okoro accepting that the Moon began dry and that later impacts delivered the water, merely disputing which impactor type; but Okoro argues glass-trapped water could not have survived an impact at all, the opposite of accepting an impact origin."
         },
         "B": {
-          "trap": "half-right",
-          "explanation": "Okoro does not accept an impact-based origin at all; he rejects the impactor explanation entirely rather than merely revising its timing."
+          "trap": "too-extreme",
+          "explanation": "Okoro's argument is that the specific water sealed in glass beads could not have survived an impact, not that no lunar water of any kind could ever arrive by impact; this overstates his claim into an absolute impossibility."
         },
         "D": {
-          "trap": "out-of-scope",
-          "explanation": "Neither text mentions samples from the Moon's far side or suggests the disagreement depends on them; this introduces an idea absent from both passages."
+          "trap": "plausible-unsupported",
+          "explanation": "Nothing in Okoro's text has him conceding a dry surface or discussing the rarity of glass beads as a reason the debate can't be settled; this is a reasonable-sounding position the text never attributes to him."
         }
       }
     },
@@ -543,7 +543,7 @@
       "rating": 4,
       "targetSeconds": 85,
       "key": "C",
-      "topic": "Bee visits to flowers of different colours",
+      "topic": "Bee visits to flowers of different colors",
       "stimulus": {
         "type": "chart",
         "text": "Researchers recorded the average number of bee visits per hour to flowers of four colors, separately for morning and afternoon hours.",
@@ -635,7 +635,7 @@
           "explanation": "The passage explains that less sediment is arriving, which would cause slower growth or shrinkage, not faster growth."
         },
         "D": {
-          "trap": "too-extreme",
+          "trap": "contradicts-text",
           "explanation": "The text states that subsidence and wave erosion are \"still at work,\" so deltas becoming \"entirely resistant to erosion\" contradicts this ongoing process."
         }
       }
@@ -653,7 +653,7 @@
       "topic": "Handwriting versus typing and memory for lecture notes",
       "stimulus": {
         "type": "prose",
-        "text": "In a study comparing students who took lecture notes by hand with those who typed notes on laptops, typists generally recorded more words verbatim, while handwriters recorded fewer words but paraphrased more of what they heard. On a test given immediately afterward, the two groups performed similarly on questions asking students to recall specific facts. On a test given a week later, however, handwriters outperformed typists specifically on questions requiring students to explain concepts in their own words, not on questions asking for exact figures or dates. The researchers noted that paraphrasing while listening requires briefly holding an idea in mind and restating it, a process that overlaps with how information is thought to move from short-term into longer-term memory. Based on the text, a week after the lecture, students who had typed their notes would most likely still perform as well as handwriters on a test that ______."
+        "text": "In a study led by cognitive scientist Halvard Østby, students who took lecture notes by hand were compared with those who typed notes on laptops. Typists generally recorded more words verbatim, while handwriters recorded fewer words but paraphrased more of what they heard. On a test given immediately afterward, the two groups performed similarly on every type of question. A week later, both groups' scores on questions about specific facts had declined by nearly identical amounts, but handwriters now outperformed typists on questions requiring students to explain concepts in their own words. Østby noted that paraphrasing while listening requires briefly holding an idea in mind and restating it. This suggests that a week after the lecture, students who had typed their notes would most likely still perform as well as handwriters on a test that ______."
       },
       "stem": "Which choice most logically completes the text?",
       "options": {
@@ -662,7 +662,7 @@
         "C": "was given immediately after the lecture rather than a week later",
         "D": "required no verbatim recall of any kind"
       },
-      "rationale": "The text specifies that handwriters' week-later advantage appeared \"specifically on questions requiring students to explain concepts,\" not on questions about exact figures or dates, so typists would likely remain competitive on that narrower kind of question even a week later.",
+      "rationale": "The text states that a week later, both groups' scores on questions about specific facts had declined by nearly identical amounts, and only on questions requiring students to explain concepts did handwriters pull ahead, so typists would likely remain just as strong specifically on the fact-recall kind of question.",
       "distractors": {
         "B": {
           "trap": "contradicts-text",
@@ -772,19 +772,19 @@
       "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
       "options": {
         "A": "loads, but",
-        "B": "loads but",
-        "C": "loads; but",
+        "B": "loads it",
+        "C": "loads, it",
         "D": "loads, but,"
       },
       "rationale": "The two independent clauses—one describing bamboo's advantages and one describing its need for replacement—are properly joined by a comma followed by the coordinating conjunction \"but.\"",
       "distractors": {
         "B": {
           "trap": "run-on",
-          "explanation": "A coordinating conjunction joining two independent clauses needs a comma before it; omitting the comma here creates a run-on sentence."
+          "explanation": "No punctuation or conjunction separates the two independent clauses."
         },
         "C": {
-          "trap": "colon-semicolon-misuse",
-          "explanation": "A semicolon should not be paired with a coordinating conjunction like \"but\"; the two are redundant ways of marking the same joint."
+          "trap": "comma-splice",
+          "explanation": "A comma alone cannot join two independent clauses."
         },
         "D": {
           "trap": "unneeded-punctuation",
@@ -843,7 +843,7 @@
       "topic": "A fictional village savings cooperative",
       "stimulus": {
         "type": "prose",
-        "text": "In many villages, a small group of neighbors ______ money into a shared fund each month, drawing from it in turns to cover large expenses like a roof repair or a wedding, an arrangement that lets members access more money earlier than they could by saving alone."
+        "text": "In the village of Tamsara, a savings cooperative made up of twelve neighboring households ______ money into a shared fund each month, with members drawing from it in turns to cover large expenses like a roof repair or a wedding, an arrangement that lets each household access more money earlier than it could by saving alone."
       },
       "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
       "options": {
@@ -852,11 +852,11 @@
         "C": "have pooled",
         "D": "pools"
       },
-      "rationale": "The subject of the verb is the singular noun \"group,\" not the intervening plural noun \"neighbors,\" so the verb must take the singular present-tense form \"pools,\" matching the present-tense verbs \"lets\" later in the sentence.",
+      "rationale": "The subject of the verb is the singular noun \"cooperative,\" not the intervening plural noun \"households,\" so the verb must take the singular present-tense form \"pools,\" matching the present-tense verb \"lets\" later in the sentence.",
       "distractors": {
         "A": {
           "trap": "agreement-error",
-          "explanation": "\"Pool\" is a plural verb form that wrongly agrees with the nearby plural noun \"neighbors\" instead of the true singular subject \"group.\""
+          "explanation": "\"Pool\" is a plural verb form that wrongly agrees with the nearby plural noun \"households\" instead of the true singular subject \"cooperative.\""
         },
         "B": {
           "trap": "wrong-verb-form",
@@ -881,28 +881,28 @@
       "topic": "Why iron rusts faster near the sea",
       "stimulus": {
         "type": "prose",
-        "text": "Exposed to the salty mist that drifts inland from the sea, ______ rust noticeably faster than identical pieces kept even a few kilometers away, because chloride ions in the mist speed up the electrochemical reaction that converts iron to rust."
+        "text": "Exposed to the salty mist that drifts inland from the sea, ______ noticeably faster than identical fixtures kept even a few kilometers away, because chloride ions in the mist speed up the electrochemical reaction that converts iron to rust."
       },
       "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
       "options": {
-        "A": "iron fixtures near the coast",
-        "B": "the rate of rusting is",
-        "C": "it has been found that",
-        "D": "engineers have noticed that"
+        "A": "iron fixtures near the coast corrode",
+        "B": "rust forms on iron fixtures near the coast",
+        "C": "the corrosion of iron fixtures near the coast proceeds",
+        "D": "engineers observe that iron fixtures near the coast corrode"
       },
-      "rationale": "The opening phrase \"Exposed to the salty mist\" must modify the noun that follows it. Only \"iron fixtures near the coast\" logically names something that can itself be exposed to mist and rust.",
+      "rationale": "The opening phrase \"Exposed to the salty mist that drifts inland from the sea\" must modify the noun that follows it. Only \"iron fixtures near the coast corrode\" logically names something that can itself be exposed to mist and corrode.",
       "distractors": {
         "B": {
           "trap": "dangling-modifier",
-          "explanation": "\"The rate of rusting\" cannot logically be the thing \"exposed to the salty mist\"; a rate is not a physical object that rusts."
+          "explanation": "\"Rust\" is the product of corrosion, not the object exposed to the salty mist; the modifier should attach to the iron fixtures themselves, not to the rust that forms on them."
         },
         "C": {
           "trap": "dangling-modifier",
-          "explanation": "\"It has been found that\" leaves the modifying phrase with nothing sensible to attach to, since no exposed object follows."
+          "explanation": "\"The corrosion\" is an abstract process, not a physical object that can be \"exposed to the salty mist\"; the modifier should attach to the iron fixtures, not to the process affecting them."
         },
         "D": {
           "trap": "dangling-modifier",
-          "explanation": "\"Engineers\" are not the ones exposed to mist and rusting; the modifier should attach to the iron objects, not to the people observing them."
+          "explanation": "\"Engineers\" are not the ones exposed to mist and corroding; the modifier should attach to the iron fixtures, not to the people who observe them."
         }
       }
     },
@@ -919,28 +919,28 @@
       "topic": "A fictional painter's mineral pigments",
       "stimulus": {
         "type": "prose",
-        "text": "Elena Bortolussi, a painter who ground her own pigments from mineral ores rather than buying them ready-made from suppliers, believed that ______ intensity depended as much on the size to which she ground the mineral as on the mineral's chemical identity, since coarser grains of the same ore could scatter light quite differently from finer ones and appear as an altogether different hue on the canvas."
+        "text": "Elena Bortolussi, a painter who ground her own pigments from mineral ores rather than buying them ready-made from suppliers, believed that a ______ intensity depended as much on the size to which she ground the mineral as on the mineral's chemical identity, since coarser grains of the same ore could scatter light quite differently from finer ones and appear as an altogether different hue on the canvas."
       },
       "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
       "options": {
-        "A": "a colors",
+        "A": "colors",
         "B": "colors'",
-        "C": "a color's",
+        "C": "color's",
         "D": "colors's"
       },
-      "rationale": "The sentence discusses the intensity belonging to a single color, so the singular article \"a\" must pair with the singular possessive \"color's,\" correctly showing that the intensity belongs to one color.",
+      "rationale": "The sentence discusses the intensity belonging to a single color, so the singular possessive \"color's\" is needed to pair with the singular article \"a\" already in the passage, correctly showing that the intensity belongs to one color.",
       "distractors": {
         "A": {
           "trap": "possessive-plural-confusion",
-          "explanation": "\"A colors\" pairs a singular article with a plural noun and no possessive marker at all, which cannot correctly show that the intensity belongs to a color."
+          "explanation": "A plural noun with no possessive marker cannot follow the singular article \"a\" or show that the intensity belongs to a color."
         },
         "B": {
           "trap": "possessive-plural-confusion",
-          "explanation": "\"Colors'\" is a plural possessive, which does not agree with the singular article \"a\" that precedes the blank."
+          "explanation": "This plural possessive cannot follow the singular article \"a,\" which requires a singular noun to follow it."
         },
         "D": {
           "trap": "possessive-plural-confusion",
-          "explanation": "\"Colors's\" is not a standard English possessive form; a plural noun already ending in -s takes an apostrophe alone, not an added -'s."
+          "explanation": "\"Colors's\" is not a standard English possessive form, and a plural noun cannot follow the singular article \"a\" regardless of how it is marked."
         }
       }
     },
@@ -1077,14 +1077,14 @@
           "The size of the brightness dip depends on how large the planet is relative to its star; bigger planets produce a larger dip.",
           "The method works best when a planet's orbit happens to be aligned so that it passes directly between its star and telescopes on Earth.",
           "Because this alignment is required, the transit method misses many planets whose orbits are tilted away from our line of sight.",
-          "Once a transit is detected, astronomers can also measure how long the dip lasts to estimate the planet's orbital period."
+          "Once repeated transits are detected, astronomers can measure the time between successive dips to determine the planet's orbital period."
         ]
       },
       "stem": "The student wants to explain one limitation of the transit method for detecting exoplanets. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
       "options": {
         "A": "The transit method detects a planet by measuring a dip in a star's brightness that occurs when the planet passes in front of it.",
-        "B": "The brightness dip is larger for bigger planets, which makes very small planets especially difficult for astronomers to detect.",
-        "C": "Once a transit is detected, astronomers can measure the dip's duration to calculate the planet's orbital period.",
+        "B": "Because the transit method depends on a planet's orbit, it cannot be used to determine how long a planet takes to complete one orbit.",
+        "C": "Once repeated transits are detected, astronomers can measure the time between dips to determine the planet's orbital period.",
         "D": "Because the method requires a planet's orbit to be aligned with Earth's line of sight, it misses planets whose orbits are tilted differently."
       },
       "rationale": "The notes state directly that the method \"works best when a planet's orbit happens to be aligned\" and that, because of this, it \"misses many planets whose orbits are tilted away,\" which is exactly the limitation the student wants to explain.",
@@ -1095,11 +1095,11 @@
         },
         "B": {
           "trap": "misuses-notes",
-          "explanation": "The notes state only that dip size depends on planet size, not that small planets are especially hard to detect; this claim goes beyond what the notes say."
+          "explanation": "This contradicts the notes, which state that the time between dips reveals the orbital period; it is not a real limitation but a distortion of what the notes say the method can do."
         },
         "C": {
           "trap": "fails-goal",
-          "explanation": "This describes an additional capability of the method, estimating orbital period, rather than a limitation."
+          "explanation": "This describes an additional capability of the method, determining orbital period, rather than a limitation."
         }
       }
     },
@@ -1188,7 +1188,7 @@
           "explanation": "This notes that setting type took time, but alone it does not connect that fact to the specific situation of workshops printing many short, low-quantity documents."
         },
         "D": {
-          "trap": "misuses-notes",
+          "trap": "fails-goal",
           "explanation": "This states a drawback of carved blocks, the opposite of explaining why some workshops preferred them; it does not support the stated goal."
         }
       }
@@ -1217,16 +1217,16 @@
       },
       "stem": "The student wants to explain a difference between Andrade's and Rehn's studies that could account for their differing conclusions about skin-based light sensing. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
       "options": {
-        "A": "Andrade found that blindfolded octopuses failed to match new patterns, confirming that vision drives rapid camouflage.",
-        "B": "Rehn proposed a follow-up lab test using reef-like backgrounds to test whether blindfolded octopuses can match natural textures.",
-        "C": "Andrade's laboratory tanks used uniform, high-contrast patterns, while Rehn's reef sites involved irregular, low-contrast natural textures, a difference in setting that could explain why skin-based sensing seemed relevant only in the field.",
-        "D": "Both researchers agree that vision through the eyes is the primary driver of rapid camouflage."
+        "A": "Andrade found that blindfolded octopuses failed to match new patterns, whereas Rehn observed pattern changes when the eyes were plausibly not aimed at the surface.",
+        "B": "Rehn has proposed testing blindfolded octopuses on reef-like backgrounds, a design that would combine features of both researchers' studies.",
+        "C": "Andrade's tanks used uniform, high-contrast patterns, whereas Rehn's reef sites had irregular, low-contrast textures, a difference that could explain why only Rehn found signs of skin-based sensing.",
+        "D": "Although Andrade and Rehn disagree about skin-based light sensing, both agree that vision through the eyes is the primary driver of rapid camouflage."
       },
       "rationale": "Option C identifies the concrete methodological difference between the two studies, pattern contrast and setting, and ties it directly to why one study found evidence of skin-based sensing and the other did not, fulfilling the stated goal.",
       "distractors": {
         "A": {
           "trap": "partial-goal",
-          "explanation": "This reports only Andrade's finding and does not identify any difference between the two studies that would explain their differing conclusions."
+          "explanation": "This restates each study's finding but does not identify the methodological difference, pattern contrast between the two settings, that could explain why only Rehn found evidence of skin-based sensing."
         },
         "B": {
           "trap": "fails-goal",
@@ -1234,7 +1234,7 @@
         },
         "D": {
           "trap": "fails-goal",
-          "explanation": "This point of agreement is accurate to the notes but does not address the difference between the studies that could explain their disagreement about skin-based sensing."
+          "explanation": "This point of agreement is accurate to the notes but does not address the methodological difference between the studies that could explain why they differ on skin-based sensing."
         }
       }
     }

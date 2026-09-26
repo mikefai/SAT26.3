@@ -1,0 +1,1208 @@
+{
+  "moduleId": "m2-higher",
+  "title": "Reading and Writing — Module 2 (Higher route)",
+  "route": "higher",
+  "timeLimitSeconds": 2160,
+  "items": [
+    {
+      "id": "M2H-01",
+      "position": 1,
+      "domain": "Craft and Structure",
+      "skillCode": "CAS.WIC",
+      "skill": "Words in Context",
+      "band": "Easy",
+      "rating": 2,
+      "targetSeconds": 45,
+      "key": "D",
+      "topic": "Falsifiability in scientific theories",
+      "stimulus": {
+        "type": "prose",
+        "text": "A theory earns scientific status, philosopher Elena Marsh argues, not because it can be confirmed but because it can be ______: some observation could, in principle, show it to be false. A theory compatible with every conceivable outcome, she contends, tells us nothing about the world, however satisfying it seems."
+      },
+      "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": {
+        "A": "celebrated",
+        "B": "simplified",
+        "C": "popularized",
+        "D": "refuted"
+      },
+      "rationale": "The passage defines scientific status by the possibility that an observation could \"show it to be false,\" so the blank must mean capable of being shown false, which is what \"refuted\" means.",
+      "distractors": {
+        "A": {
+          "trap": "wrong-connotation",
+          "explanation": "\"Celebrated\" carries a tone of praise, not the neutral, testable quality of being provably false that the passage describes."
+        },
+        "B": {
+          "trap": "illogical-in-context",
+          "explanation": "Whether a theory is simple has no bearing on whether an observation could show it false, so \"simplified\" does not fit the passage's logic."
+        },
+        "C": {
+          "trap": "out-of-scope",
+          "explanation": "The passage never discusses a theory's popularity; it discusses only whether observation can disprove it."
+        }
+      }
+    },
+    {
+      "id": "M2H-02",
+      "position": 2,
+      "domain": "Craft and Structure",
+      "skillCode": "CAS.WIC",
+      "skill": "Words in Context",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 60,
+      "key": "C",
+      "topic": "Fiction: a violinist and her rival",
+      "stimulus": {
+        "type": "prose",
+        "text": "When Ana first heard Mireille play the same concerto she herself had spent a decade perfecting, she expected envy. Instead, sitting in the shadowed balcony, she felt something closer to ______: a reluctant, uncomfortable respect for a rival whose phrasing revealed possibilities she had never considered in the piece."
+      },
+      "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": {
+        "A": "resentment",
+        "B": "indifference",
+        "C": "admiration",
+        "D": "nostalgia"
+      },
+      "rationale": "The passage explains the feeling as \"a reluctant, uncomfortable respect\" for a rival's skill, which is precisely what \"admiration\" names.",
+      "distractors": {
+        "A": {
+          "trap": "wrong-connotation",
+          "explanation": "Resentment is too negative for a feeling the text describes as respect, and the text explicitly contrasts this feeling with the envy Ana expected."
+        },
+        "B": {
+          "trap": "contradicts-text",
+          "explanation": "The text says Ana felt \"something closer to\" a strong reaction, not the absence of feeling that \"indifference\" implies."
+        },
+        "D": {
+          "trap": "out-of-scope",
+          "explanation": "Nothing in the passage refers to Ana recalling or missing the past; the reaction is about the present performance."
+        }
+      }
+    },
+    {
+      "id": "M2H-03",
+      "position": 3,
+      "domain": "Craft and Structure",
+      "skillCode": "CAS.WIC",
+      "skill": "Words in Context",
+      "band": "Hard",
+      "rating": 4,
+      "targetSeconds": 75,
+      "key": "D",
+      "topic": "Sleep and memory consolidation",
+      "stimulus": {
+        "type": "prose",
+        "text": "Rather than passively fading, memories encoded during the day are, according to recent hypotheses, actively ______ during subsequent slow-wave sleep: the hippocampus appears to replay recent neural activity, nudging fragile traces toward more durable, cortex-based storage rather than merely allowing them to decay unaltered."
+      },
+      "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": {
+        "A": "suppressed",
+        "B": "randomized",
+        "C": "erased",
+        "D": "reorganized"
+      },
+      "rationale": "The passage describes memory traces being \"nudged toward more durable, cortex-based storage\" through replay, which is a process of reorganizing where and how a memory is stored, not eliminating or scrambling it.",
+      "distractors": {
+        "A": {
+          "trap": "contradicts-text",
+          "explanation": "The passage says memories are actively worked on, not held back; \"suppressed\" contradicts the idea of active replay strengthening storage."
+        },
+        "B": {
+          "trap": "illogical-in-context",
+          "explanation": "The hippocampus is described as replaying recent activity in a directed way toward durable storage, not scrambling it without pattern, so \"randomized\" fits neither the mechanism nor the outcome described."
+        },
+        "C": {
+          "trap": "contradicts-text",
+          "explanation": "The passage states traces move toward \"more durable\" storage rather than decaying, which is the opposite of being erased."
+        }
+      }
+    },
+    {
+      "id": "M2H-04",
+      "position": 4,
+      "domain": "Craft and Structure",
+      "skillCode": "CAS.TSP",
+      "skill": "Text Structure and Purpose",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 60,
+      "key": "A",
+      "topic": "Original poem: migrating cranes",
+      "stimulus": {
+        "type": "poem",
+        "title": "Passage of Cranes",
+        "attribution": "From Marguerite Solano's poem \"Passage of Cranes\" (fictional)",
+        "text": "They lift before the frost has named the field,\nwedge after wedge stitched loose against the gray,\ncalling down a distance no map has sealed,\nold thread pulled taut from one blue year to the next.\n{u}Below, the harvest goes on without them, unhurried, as if their leaving were only weather.{/u}\nYet something in the barns leans toward the sky,\nsome small attention tilted north and south,\ntracking what the cranes already know."
+      },
+      "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+      "options": {
+        "A": "It highlights how ordinary the cranes' departure appears to those on the ground, setting up the contrast with the quiet attentiveness described afterward.",
+        "B": "It suggests that farmers are generally indifferent to the changing of the seasons each year.",
+        "C": "It implies that the harvest failed because the cranes departed earlier than expected that year.",
+        "D": "It marks a shift from describing the cranes to criticizing human carelessness toward nature."
+      },
+      "rationale": "The underlined sentence shows life on the ground continuing \"unhurried,\" as if the cranes' leaving were unremarkable, which sets up the following lines about a quieter, less obvious attentiveness in the barns.",
+      "distractors": {
+        "B": {
+          "trap": "too-broad",
+          "explanation": "The sentence is specifically about how the cranes' departure looks from below, not a general claim about farmers' attitude toward the seasons."
+        },
+        "C": {
+          "trap": "out-of-scope",
+          "explanation": "The poem never suggests the harvest failed or that the cranes' timing affected it; the sentence only describes the harvest continuing."
+        },
+        "D": {
+          "trap": "wrong-function",
+          "explanation": "The sentence does not criticize anyone; it establishes a contrast in attention, which the rest of the poem develops rather than a turn toward criticism."
+        }
+      }
+    },
+    {
+      "id": "M2H-05",
+      "position": 5,
+      "domain": "Craft and Structure",
+      "skillCode": "CAS.TSP",
+      "skill": "Text Structure and Purpose",
+      "band": "Hard",
+      "rating": 4,
+      "targetSeconds": 75,
+      "key": "A",
+      "topic": "The race to build clocks accurate enough for navigation at sea",
+      "stimulus": {
+        "type": "prose",
+        "text": "For centuries, sailors could fix their latitude by the sun's height but not their longitude, since that required knowing the time at a home port precisely enough to compare against local noon. Pendulum clocks, reliable on land, faltered aboard a rolling ship, and proposed alternatives, such as lunar tables demanding laborious calculation or magnetic variation charts of dubious consistency, solved the problem only partially, trading one uncertainty for another. Not until instrument makers addressed the clock itself, rather than devising workarounds for its failure, did dependable navigation at sea become routine."
+      },
+      "stem": "Which choice best states the main purpose of the text?",
+      "options": {
+        "A": "To explain why solving the problem of a ship's longitude required a more fundamental fix than earlier partial workarounds provided",
+        "B": "To argue that lunar tables were more reliable than magnetic variation charts for determining longitude",
+        "C": "To describe the process by which pendulum clocks were adapted for use on land",
+        "D": "To claim that sailors before the era of accurate clocks were unable to determine their position at sea"
+      },
+      "rationale": "The text traces failed workarounds and concludes that only a fix to \"the clock itself\" solved the longitude problem, which is the point the whole passage builds toward.",
+      "distractors": {
+        "B": {
+          "trap": "too-narrow",
+          "explanation": "The text mentions both alternatives only to note that each solved the problem partially; it never ranks the two workarounds against each other."
+        },
+        "C": {
+          "trap": "contradicts-text",
+          "explanation": "Pendulum clocks are described as already reliable on land and faltering at sea, not as being adapted for land use."
+        },
+        "D": {
+          "trap": "too-extreme",
+          "explanation": "The text says sailors could determine latitude, so it does not support the extreme claim that they could not determine their position at all."
+        }
+      }
+    },
+    {
+      "id": "M2H-06",
+      "position": 6,
+      "domain": "Craft and Structure",
+      "skillCode": "CAS.CTC",
+      "skill": "Cross-Text Connections",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 70,
+      "key": "D",
+      "topic": "Fictional pilot programmes giving residents regular cash payments: two economists",
+      "stimulus": {
+        "type": "paired",
+        "text1": "In a fictional pilot program in the town of Verrenne, Dr. Ilse Kovar found that households receiving a modest, no-strings monthly payment increased spending at local shops within months, and several new small businesses opened nearby. Kovar concludes that predictable cash support can act as a reliable stimulus for local economies.",
+        "text2": "Examining the same Verrenne data eighteen months after payments ended, Dr. Tomas Whitfield found that shop revenues and new-business survival rates had mostly returned to pre-program levels. Whitfield cautions that short-term upticks observed while payments are ongoing may not indicate a lasting change in the local economy."
+      },
+      "stem": "Based on the texts, how would Whitfield most likely respond to Kovar's claim that predictable cash support is a reliable stimulus for local economies?",
+      "options": {
+        "A": "By agreeing completely, since his data show that the new businesses continued to thrive indefinitely",
+        "B": "By arguing that the payments caused shop revenues to fall below their original levels",
+        "C": "By insisting that Kovar's methods for measuring local spending were flawed from the outset",
+        "D": "By suggesting that the apparent stimulus effect may not persist once the payments themselves stop"
+      },
+      "rationale": "Whitfield found that revenues and business survival returned to earlier levels after payments ended, which supports the idea, stated in his own words, that upticks during payments may not last.",
+      "distractors": {
+        "A": {
+          "trap": "contradicts-text",
+          "explanation": "Whitfield found outcomes returned to pre-program levels rather than businesses continuing to thrive, so this reverses his actual finding."
+        },
+        "B": {
+          "trap": "reverses-relationship",
+          "explanation": "Whitfield found revenues returned to their earlier levels, not that they fell below them."
+        },
+        "C": {
+          "trap": "out-of-scope",
+          "explanation": "Whitfield's passage discusses later data from the same program, not a critique of Kovar's methodology."
+        }
+      }
+    },
+    {
+      "id": "M2H-07",
+      "position": 7,
+      "domain": "Craft and Structure",
+      "skillCode": "CAS.CTC",
+      "skill": "Cross-Text Connections",
+      "band": "Hard",
+      "rating": 5,
+      "targetSeconds": 100,
+      "key": "C",
+      "topic": "Why a fictional ancient city was abandoned: two archaeologists",
+      "stimulus": {
+        "type": "paired",
+        "text1": "Archaeologist Nadia Petrova has argued that the city of Kessa was abandoned because of a prolonged drought. Sediment cores from a nearby lakebed show decades of markedly reduced rainfall coinciding closely with the layers marking the city's decline, and Petrova considers this climatic evidence sufficient to explain the exodus.",
+        "text2": "Archaeologist Farrukh Aliyev points instead to trade-route records showing that Kessa's principal trading partners had shifted to alternate routes decades before the driest years recorded in the lakebed cores. Since population decline in the city's layers appears to begin before the drought's onset, Aliyev argues that economic isolation better explains the abandonment."
+      },
+      "stem": "Which choice best describes a difference in how the authors of Text 1 and Text 2 view the cause of Kessa's abandonment?",
+      "options": {
+        "A": "Petrova attributes the abandonment to declining trade, while Aliyev attributes it to drought.",
+        "B": "Petrova and Aliyev agree that drought and declining trade contributed equally to the abandonment.",
+        "C": "Petrova points to climatic evidence that coincides with the decline, while Aliyev points to economic evidence that precedes it.",
+        "D": "Petrova argues the abandonment happened gradually, while Aliyev argues it happened abruptly within a single season."
+      },
+      "rationale": "Petrova's evidence, the sediment cores, coincides in time with the city's decline, while Aliyev's evidence, the trade-route shift, predates the decline; this timing distinction is exactly what separates their explanations.",
+      "distractors": {
+        "A": {
+          "trap": "wrong-text-attribution",
+          "explanation": "This swaps the two researchers' positions: Petrova points to drought and Aliyev points to trade, not the reverse."
+        },
+        "B": {
+          "trap": "contradicts-text",
+          "explanation": "The two researchers propose competing, not complementary, explanations, and neither text describes the causes as contributing equally."
+        },
+        "D": {
+          "trap": "out-of-scope",
+          "explanation": "Neither text addresses the abandonment's pace or speed; both texts instead discuss the timing of causes, not how quickly the abandonment itself unfolded."
+        }
+      }
+    },
+    {
+      "id": "M2H-08",
+      "position": 8,
+      "domain": "Information and Ideas",
+      "skillCode": "INI.CID",
+      "skill": "Central Ideas and Details",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 60,
+      "key": "B",
+      "topic": "Fiction: an elderly mapmaker revising an old chart",
+      "stimulus": {
+        "type": "prose",
+        "text": "Old Henrik had drawn the coastline forty years earlier, trusting the surveys of men he had never met. Now, bent over the same chart with a magnifying lens, he found himself erasing a peninsula that no longer existed and adding a channel silted shut since his youth. It was strange work, correcting a version of the world he had once believed permanent, and stranger still to realize that the coast itself, not his hand, had been the one drawing all along."
+      },
+      "stem": "Which choice best states the main idea of the text?",
+      "options": {
+        "A": "Henrik regrets having trusted surveys made by people he never met.",
+        "B": "Henrik comes to see that the changing land, rather than any error of his own, made his old chart inaccurate.",
+        "C": "Henrik believes that coastlines never change once they have been mapped.",
+        "D": "Henrik decides to stop making charts because the work has become too strange for him."
+      },
+      "rationale": "The final lines show Henrik realizing that \"the coast itself\" changed the map's accuracy, not any mistake he had made, which is the passage's central realization.",
+      "distractors": {
+        "A": {
+          "trap": "too-narrow",
+          "explanation": "The passage does not center on regret about trusting past surveyors; it centers on his realization about what caused the chart's inaccuracy."
+        },
+        "C": {
+          "trap": "contradicts-text",
+          "explanation": "The passage shows the opposite: Henrik is actively correcting the chart because the coastline did change."
+        },
+        "D": {
+          "trap": "out-of-scope",
+          "explanation": "Nothing in the text suggests Henrik decides to stop mapmaking; it describes only his revision of one chart."
+        }
+      }
+    },
+    {
+      "id": "M2H-09",
+      "position": 9,
+      "domain": "Information and Ideas",
+      "skillCode": "INI.CID",
+      "skill": "Central Ideas and Details",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 60,
+      "key": "C",
+      "topic": "Fungal networks linking tree roots",
+      "stimulus": {
+        "type": "prose",
+        "text": "Beneath a forest floor, thread-like fungi often connect the roots of separate trees, forming a network researchers have taken to calling, somewhat loosely, a \"wood wide web.\" Carbon and nutrients can pass from one tree to another along these threads, and some evidence suggests struggling seedlings in deep shade receive measurable transfers from larger neighbors. Yet the fungi are not disinterested conduits: they take a share of sugars from every tree they connect, and whether a given transfer benefits the receiving tree more than the fungus itself is not always clear."
+      },
+      "stem": "Which choice best states the main idea of the text?",
+      "options": {
+        "A": "Fungal networks always work to protect the smallest and most vulnerable trees in a forest.",
+        "B": "Trees mainly use fungal networks to compete with, rather than support, their neighbors.",
+        "C": "Fungal networks move resources between trees, but whether individual trees are the main beneficiaries is uncertain.",
+        "D": "Researchers agree that the term \"wood wide web\" accurately describes how these networks function."
+      },
+      "rationale": "The passage explains that resources move between trees through fungal networks but ends by noting it is \"not always clear\" whether the tree or the fungus benefits more, which is the qualified main idea.",
+      "distractors": {
+        "A": {
+          "trap": "too-extreme",
+          "explanation": "The passage uses qualified language, \"some evidence suggests,\" rather than the absolute claim that networks \"always\" protect small trees."
+        },
+        "B": {
+          "trap": "contradicts-text",
+          "explanation": "The passage describes resource transfer and support between trees, not competition, as the networks' main described function."
+        },
+        "D": {
+          "trap": "contradicts-text",
+          "explanation": "The passage says researchers use the term only \"somewhat loosely,\" which signals skepticism rather than agreement about its accuracy."
+        }
+      }
+    },
+    {
+      "id": "M2H-10",
+      "position": 10,
+      "domain": "Information and Ideas",
+      "skillCode": "INI.COET",
+      "skill": "Command of Evidence: Textual",
+      "band": "Hard",
+      "rating": 4,
+      "targetSeconds": 75,
+      "key": "A",
+      "topic": "A fictional study of gift exchange in a fishing community",
+      "stimulus": {
+        "type": "prose",
+        "text": "Anthropologist Grace Odhiambo has argued that in the fishing village of Talenge, gift-giving of surplus catch functions less as generosity than as a form of informal insurance: households that give freely during abundant seasons are, she claims, the same households most likely to receive support when their own catches later fail."
+      },
+      "stem": "Which finding, if true, would most directly support Odhiambo's claim?",
+      "options": {
+        "A": "Records show that the households who shared the most fish during good seasons received the most support during a later season of poor catches.",
+        "B": "Records show that Talenge households share fish equally regardless of the size of their own catch.",
+        "C": "Records show that Talenge fishers increasingly sell surplus fish in a nearby market instead of sharing it.",
+        "D": "Records show that Talenge's fishing yields have declined gradually over the past decade."
+      },
+      "rationale": "Odhiambo's claim is that generous givers are the ones who later receive support, so a record showing exactly that correlation directly supports her insurance-like reciprocity claim.",
+      "distractors": {
+        "B": {
+          "trap": "weakens-claim",
+          "explanation": "If support were shared equally regardless of prior generosity, that would undercut, not support, the claim that giving functions as insurance tied to reciprocal support."
+        },
+        "C": {
+          "trap": "out-of-scope",
+          "explanation": "A shift toward market selling does not address whether past generosity predicts later support, which is the specific claim in question."
+        },
+        "D": {
+          "trap": "true-but-irrelevant",
+          "explanation": "A general decline in yields says nothing about whether generous givers are the ones who receive support later."
+        }
+      }
+    },
+    {
+      "id": "M2H-11",
+      "position": 11,
+      "domain": "Information and Ideas",
+      "skillCode": "INI.COET",
+      "skill": "Command of Evidence: Textual",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 60,
+      "key": "B",
+      "topic": "A fictional play's ambitious protagonist",
+      "stimulus": {
+        "type": "prose",
+        "text": "In her study of the fictional play The Brass Crown, critic Helena Dumont contends that Aurelio's relentless ambition is less a sign of confidence than a defense against a private fear of being overlooked."
+      },
+      "stem": "Which quotation from the play most effectively illustrates the claim?",
+      "options": {
+        "A": "Aurelio: \"I do not crave the throne; I crave only what is rightfully earned.\"",
+        "B": "Aurelio, alone, to the mirror: \"If they forget my name, better they never knew it at all.\"",
+        "C": "Aurelio: \"The court has always underestimated its rivals, and paid for it.\"",
+        "D": "Aurelio: \"A crown is only metal until a people choose to kneel.\""
+      },
+      "rationale": "Spoken alone to a mirror, this line reveals a private fear of being forgotten, which directly illustrates Dumont's claim that Aurelio's ambition defends against a fear of being overlooked.",
+      "distractors": {
+        "A": {
+          "trap": "plausible-unsupported",
+          "explanation": "This line presents Aurelio as principled rather than fearful, so while plausible as a public statement, it does not reveal the private insecurity Dumont's claim describes."
+        },
+        "C": {
+          "trap": "true-but-irrelevant",
+          "explanation": "This line is about underestimating rivals, not about Aurelio's own private fear of being forgotten."
+        },
+        "D": {
+          "trap": "out-of-scope",
+          "explanation": "This is a general statement about the nature of a crown, not a moment revealing Aurelio's personal motivation."
+        }
+      }
+    },
+    {
+      "id": "M2H-12",
+      "position": 12,
+      "domain": "Information and Ideas",
+      "skillCode": "INI.COEQ",
+      "skill": "Command of Evidence: Quantitative",
+      "band": "Hard",
+      "rating": 4,
+      "targetSeconds": 85,
+      "key": "C",
+      "topic": "Glacier retreat in three fictional valleys",
+      "stimulus": {
+        "type": "chart",
+        "text": "A research team tracked glacier retreat in three fictional valleys across two periods, 1990 to 2005 and 2005 to 2020. The valley whose retreat rate increased the most from the first period to the second was ______.",
+        "chart": {
+          "caption": "Glacier length lost in three fictional valleys, by period (meters)",
+          "xLabel": "Valley",
+          "yLabel": "Meters retreated",
+          "categories": [
+            "Aldenvale",
+            "Brisco Hollow",
+            "Karst Ridge"
+          ],
+          "series": [
+            {
+              "label": "1990-2005",
+              "values": [
+                120,
+                210,
+                90
+              ]
+            },
+            {
+              "label": "2005-2020",
+              "values": [
+                340,
+                230,
+                410
+              ]
+            }
+          ]
+        }
+      },
+      "stem": "Which choice most effectively uses data from the graph to complete the statement?",
+      "options": {
+        "A": "Aldenvale, which lost more length in total across the two periods combined than Karst Ridge did",
+        "B": "Brisco Hollow, which lost the most length of the three valleys during the first period",
+        "C": "Karst Ridge, whose retreat between the two periods increased more than fourfold",
+        "D": "Aldenvale, whose retreat rate slowed between the two periods"
+      },
+      "rationale": "Karst Ridge's retreat rose from 90 to 410 meters, an increase of more than four times its first-period value, the largest relative and absolute jump of the three valleys.",
+      "distractors": {
+        "A": {
+          "trap": "reverses-relationship",
+          "explanation": "Karst Ridge's combined total (90 + 410 = 500) exceeds Aldenvale's combined total (120 + 340 = 460), so this reverses which valley actually lost more overall."
+        },
+        "B": {
+          "trap": "true-but-irrelevant",
+          "explanation": "Brisco Hollow's first-period value is accurately the highest of the three, but its retreat barely changed between periods (210 to 230), so this does not identify the valley whose rate increased the most."
+        },
+        "D": {
+          "trap": "misreads-data",
+          "explanation": "Aldenvale's retreat rose sharply, from 120 to 340 meters, so describing its rate as having slowed misreads the graph."
+        }
+      }
+    },
+    {
+      "id": "M2H-13",
+      "position": 13,
+      "domain": "Information and Ideas",
+      "skillCode": "INI.INF",
+      "skill": "Inferences",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 60,
+      "key": "D",
+      "topic": "The toughness of spider silk",
+      "stimulus": {
+        "type": "prose",
+        "text": "Spider silk's remarkable toughness comes not from being the strongest fiber by weight, since several synthetic fibers exceed it in raw tensile strength, but from its unusual capacity to stretch considerably before breaking, absorbing energy that a stiffer, stronger fiber would instead transmit as a sudden fracture. A material engineer designing impact-resistant fabric would therefore most likely value silk's properties chiefly for its ability to ______."
+      },
+      "stem": "Which choice most logically completes the text?",
+      "options": {
+        "A": "exceed synthetic fibers in raw tensile strength",
+        "B": "resist stretching under any applied force",
+        "C": "maintain its strength regardless of temperature",
+        "D": "absorb sudden force without snapping"
+      },
+      "rationale": "The passage explains that silk's toughness comes from stretching to absorb energy rather than fracturing suddenly, so an engineer designing impact-resistant fabric would value exactly that ability to absorb sudden force without snapping.",
+      "distractors": {
+        "A": {
+          "trap": "contradicts-text",
+          "explanation": "The passage states synthetic fibers exceed silk in raw tensile strength, so this reverses what the text says."
+        },
+        "B": {
+          "trap": "contradicts-text",
+          "explanation": "The passage credits silk's toughness to its capacity to stretch, not to resisting stretching."
+        },
+        "C": {
+          "trap": "out-of-scope",
+          "explanation": "The passage never discusses how silk behaves across different temperatures."
+        }
+      }
+    },
+    {
+      "id": "M2H-14",
+      "position": 14,
+      "domain": "Information and Ideas",
+      "skillCode": "INI.INF",
+      "skill": "Inferences",
+      "band": "Hard",
+      "rating": 5,
+      "targetSeconds": 90,
+      "key": "D",
+      "topic": "Dark matter in small galaxies: a fictional survey",
+      "stimulus": {
+        "type": "prose",
+        "text": "A survey of dwarf galaxies orbiting a nearby spiral, conducted by astronomer Priya Sundaram's team, found that the smallest, faintest satellites showed rotation speeds implying far more mass than their visible stars could account for, consistent with dark matter dominating their gravity. Yet a handful of dwarfs of similar size and brightness showed rotation speeds implying comparatively little unseen mass, a pattern the team could not attribute to measurement error alone. If a single, uniform ratio of dark to visible matter governed every dwarf galaxy regardless of its history, Sundaram noted, such variation among otherwise similar satellites would be ______."
+      },
+      "stem": "Which choice most logically completes the text?",
+      "options": {
+        "A": "expected, since dark matter content should scale directly with a galaxy's brightness alone",
+        "B": "common, since most dwarf galaxies studied so far show nearly identical rotation speeds",
+        "C": "irrelevant, since rotation speed never depends on how mass is distributed within a galaxy",
+        "D": "hard to explain, since a uniform ratio predicts similar dwarfs hold similar proportions of mass"
+      },
+      "rationale": "A uniform dark-to-visible matter ratio would predict that similarly sized, similarly bright dwarfs contain similar proportions of unseen mass, so the observed variation among such similar satellites would be hard to reconcile with that hypothesis.",
+      "distractors": {
+        "A": {
+          "trap": "illogical-in-context",
+          "explanation": "A uniform ratio tied to brightness would predict consistency among similarly bright dwarfs, not the variation the team actually observed, so this does not follow from the passage's premise."
+        },
+        "B": {
+          "trap": "contradicts-text",
+          "explanation": "The passage describes a handful of dwarfs departing from the otherwise dominant pattern, not most dwarfs showing identical rotation speeds."
+        },
+        "C": {
+          "trap": "illogical-in-context",
+          "explanation": "The passage's entire argument rests on rotation speed reflecting the distribution of mass, so claiming the two are unrelated contradicts the premise of the surrounding discussion."
+        }
+      }
+    },
+    {
+      "id": "M2H-15",
+      "position": 15,
+      "domain": "Standard English Conventions",
+      "skillCode": "SEC.BND",
+      "skill": "Boundaries",
+      "band": "Easy",
+      "rating": 2,
+      "targetSeconds": 45,
+      "key": "B",
+      "topic": "Deep-sea hydrothermal vents",
+      "stimulus": {
+        "type": "prose",
+        "text": "Hydrothermal vents form where seawater seeps into cracks in the ocean floor and is heated by magma far below the seafloor______the water that returns to the surface can exceed three hundred degrees Celsius without boiling because of the immense pressure at that depth."
+      },
+      "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": ", the water",
+        "B": "; the water",
+        "C": "the water",
+        "D": ": and the water"
+      },
+      "rationale": "Both \"Hydrothermal vents form...below the seafloor\" and \"the water that returns...that depth\" are independent clauses, so a semicolon alone correctly joins them.",
+      "distractors": {
+        "A": {
+          "trap": "comma-splice",
+          "explanation": "A comma alone cannot join two independent clauses; this creates a comma splice."
+        },
+        "C": {
+          "trap": "run-on",
+          "explanation": "With no punctuation at all, the two independent clauses are simply fused together, creating a run-on sentence."
+        },
+        "D": {
+          "trap": "colon-semicolon-misuse",
+          "explanation": "Following a colon with the coordinating conjunction \"and\" is nonstandard; a colon is not paired with a conjunction this way."
+        }
+      }
+    },
+    {
+      "id": "M2H-16",
+      "position": 16,
+      "domain": "Standard English Conventions",
+      "skillCode": "SEC.BND",
+      "skill": "Boundaries",
+      "band": "Hard",
+      "rating": 4,
+      "targetSeconds": 75,
+      "key": "A",
+      "topic": "Long-exposure photography",
+      "stimulus": {
+        "type": "prose",
+        "text": "Long-exposure photography, a technique that records light arriving over seconds or even hours rather than a fraction of a second______transforms moving water into a silken blur and turns a night sky's rotation into visible arcs of starlight."
+      },
+      "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": ",",
+        "B": ";",
+        "C": ":",
+        "D": "."
+      },
+      "rationale": "The phrase \"a technique that records light arriving over seconds or even hours rather than a fraction of a second\" is a nonessential appositive opened with a comma after \"photography\"; it must be closed with a matching comma before the main verb \"transforms.\"",
+      "distractors": {
+        "B": {
+          "trap": "unbalanced-nonessential",
+          "explanation": "The nonessential element was opened with a comma, so it must be closed with a comma; closing it with a semicolon leaves the punctuation marks mismatched."
+        },
+        "C": {
+          "trap": "colon-semicolon-misuse",
+          "explanation": "A colon is not the appropriate mark for closing a nonessential appositive that was opened with a comma."
+        },
+        "D": {
+          "trap": "fragment",
+          "explanation": "A period here splits the sentence into two fragments: the first has a subject and appositive but no main verb, and the second, \"Transforms moving water...,\" has a verb but no subject."
+        }
+      }
+    },
+    {
+      "id": "M2H-17",
+      "position": 17,
+      "domain": "Standard English Conventions",
+      "skillCode": "SEC.BND",
+      "skill": "Boundaries",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 60,
+      "key": "D",
+      "topic": "Plant-based textile dyes",
+      "stimulus": {
+        "type": "prose",
+        "text": "Although many plant-based dyes fade quickly in direct sunlight, a rare few resist fading for decades______the deep blue extracted from certain fermented leaves is often cited as the most durable example."
+      },
+      "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": ", the deep blue",
+        "B": "the deep blue",
+        "C": ": and the deep blue",
+        "D": "; the deep blue"
+      },
+      "rationale": "\"A rare few resist fading for decades\" and \"the deep blue extracted from certain fermented leaves is often cited as the most durable example\" are both independent clauses, so a semicolon alone correctly joins them.",
+      "distractors": {
+        "A": {
+          "trap": "comma-splice",
+          "explanation": "A comma alone cannot join these two independent clauses; this creates a comma splice."
+        },
+        "B": {
+          "trap": "run-on",
+          "explanation": "With no punctuation at all, the two independent clauses are simply fused together, creating a run-on sentence."
+        },
+        "C": {
+          "trap": "colon-semicolon-misuse",
+          "explanation": "Following a colon with the coordinating conjunction \"and\" is nonstandard; a colon is not paired with a conjunction in this way."
+        }
+      }
+    },
+    {
+      "id": "M2H-18",
+      "position": 18,
+      "domain": "Standard English Conventions",
+      "skillCode": "SEC.BND",
+      "skill": "Boundaries",
+      "band": "Hard",
+      "rating": 4,
+      "targetSeconds": 75,
+      "key": "D",
+      "topic": "Slow sand filtration for drinking water",
+      "stimulus": {
+        "type": "prose",
+        "text": "Slow sand filtration, a method still used in some municipal water systems today, depends less on the sand itself than on a thin biological layer known as the schmutzdecke______this living film of microorganisms breaks down organic contaminants as water seeps slowly through it."
+      },
+      "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": ", this living film",
+        "B": "this living film",
+        "C": ": and this living film",
+        "D": "; this living film"
+      },
+      "rationale": "Despite the nonessential appositive \"a method still used in some municipal water systems today\" interrupting the subject, the clause \"Slow sand filtration...known as the schmutzdecke\" is independent, as is \"this living film...seeps slowly through it,\" so a semicolon alone correctly joins them.",
+      "distractors": {
+        "A": {
+          "trap": "comma-splice",
+          "explanation": "A comma alone cannot join these two independent clauses; this creates a comma splice."
+        },
+        "B": {
+          "trap": "run-on",
+          "explanation": "With no punctuation at all, the two independent clauses are fused together, creating a run-on sentence."
+        },
+        "C": {
+          "trap": "colon-semicolon-misuse",
+          "explanation": "Pairing a colon with the coordinating conjunction \"and\" is nonstandard usage."
+        }
+      }
+    },
+    {
+      "id": "M2H-19",
+      "position": 19,
+      "domain": "Standard English Conventions",
+      "skillCode": "SEC.FSS",
+      "skill": "Form, Structure, and Sense",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 60,
+      "key": "C",
+      "topic": "Map projections and distortion",
+      "stimulus": {
+        "type": "prose",
+        "text": "Every map projection, in translating the curved surface of the globe onto a flat plane, ______ some combination of area, shape, distance, or direction, since no flat rendering can preserve all four properties at once."
+      },
+      "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "distort",
+        "B": "distorting",
+        "C": "distorts",
+        "D": "have distorted"
+      },
+      "rationale": "The singular subject \"Every map projection\" requires the singular verb \"distorts,\" despite the intervening phrase \"in translating the curved surface of the globe onto a flat plane.\"",
+      "distractors": {
+        "A": {
+          "trap": "wrong-verb-form",
+          "explanation": "\"Distort\" lacks the third-person singular \"-s\" needed to agree with the singular subject \"Every map projection.\""
+        },
+        "B": {
+          "trap": "wrong-verb-form",
+          "explanation": "\"Distorting\" is a nonfinite form and cannot serve as the sentence's main verb."
+        },
+        "D": {
+          "trap": "agreement-error",
+          "explanation": "The plural auxiliary \"have\" does not agree with the singular subject \"Every map projection.\""
+        }
+      }
+    },
+    {
+      "id": "M2H-20",
+      "position": 20,
+      "domain": "Standard English Conventions",
+      "skillCode": "SEC.FSS",
+      "skill": "Form, Structure, and Sense",
+      "band": "Hard",
+      "rating": 4,
+      "targetSeconds": 75,
+      "key": "B",
+      "topic": "Tool use by crows",
+      "stimulus": {
+        "type": "prose",
+        "text": "After spending weeks observing New Caledonian crows bend twigs into hooks to extract grubs from tree bark, the research team concluded that ______ tool-making ability rivaled that of some primates long assumed to be uniquely dexterous."
+      },
+      "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "it's",
+        "B": "the birds'",
+        "C": "their's",
+        "D": "the bird's"
+      },
+      "rationale": "The crows are plural, so the plural possessive \"the birds'\" correctly shows that the tool-making ability belongs to the crows collectively.",
+      "distractors": {
+        "A": {
+          "trap": "pronoun-error",
+          "explanation": "\"It's\" is a contraction of \"it is\" and cannot serve as a possessive referring to the plural crows."
+        },
+        "C": {
+          "trap": "possessive-plural-confusion",
+          "explanation": "\"Their's\" is not a standard English word; the correct possessive pronoun is \"theirs,\" without an apostrophe."
+        },
+        "D": {
+          "trap": "possessive-plural-confusion",
+          "explanation": "\"The bird's\" is a singular possessive, which mismatches the plural \"crows\" described throughout the sentence."
+        }
+      }
+    },
+    {
+      "id": "M2H-21",
+      "position": 21,
+      "domain": "Standard English Conventions",
+      "skillCode": "SEC.FSS",
+      "skill": "Form, Structure, and Sense",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 60,
+      "key": "C",
+      "topic": "The number zero as a written symbol",
+      "stimulus": {
+        "type": "prose",
+        "text": "Long before it ______ used to represent \"nothing\" in arithmetic, a placeholder symbol resembling a small dot or circle appeared in positional number systems simply to mark an empty column, distinguishing, for instance, \"two hundred and three\" from \"twenty-three.\""
+      },
+      "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "is",
+        "B": "will be",
+        "C": "was",
+        "D": "has been"
+      },
+      "rationale": "The sentence describes a past historical development, signaled by \"appeared,\" so the past-tense \"was\" is needed to match that time frame.",
+      "distractors": {
+        "A": {
+          "trap": "tense-shift",
+          "explanation": "The present tense \"is\" is inconsistent with the past-tense narrative established by \"appeared.\""
+        },
+        "B": {
+          "trap": "tense-shift",
+          "explanation": "The future tense \"will be\" is illogical for describing events that happened long ago."
+        },
+        "D": {
+          "trap": "tense-shift",
+          "explanation": "The present perfect \"has been\" implies a state continuing into the present, which conflicts with the sentence's clearly past historical frame."
+        }
+      }
+    },
+    {
+      "id": "M2H-22",
+      "position": 22,
+      "domain": "Standard English Conventions",
+      "skillCode": "SEC.FSS",
+      "skill": "Form, Structure, and Sense",
+      "band": "Hard",
+      "rating": 5,
+      "targetSeconds": 90,
+      "key": "C",
+      "topic": "Deep ocean currents",
+      "stimulus": {
+        "type": "prose",
+        "text": "Deep ocean currents, driven by differences in temperature and salinity that make some water masses denser than others, move so slowly that a given parcel of water sinking near the poles may not resurface for a thousand years, a pace that, whatever its stateliness, ______ far more heat and carbon between ocean basins than most short-term surface currents do."
+      },
+      "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "transport",
+        "B": "transporting",
+        "C": "transports",
+        "D": "have transported"
+      },
+      "rationale": "The subject of the final clause is the singular \"a pace,\" so despite the intervening nonessential clause \"whatever its stateliness,\" the verb must be the singular \"transports.\"",
+      "distractors": {
+        "A": {
+          "trap": "wrong-verb-form",
+          "explanation": "\"Transport\" lacks the third-person singular \"-s\" required to agree with the singular subject \"a pace.\""
+        },
+        "B": {
+          "trap": "wrong-verb-form",
+          "explanation": "\"Transporting\" is a nonfinite form and cannot function as the main verb of this clause."
+        },
+        "D": {
+          "trap": "agreement-error",
+          "explanation": "The plural auxiliary \"have\" does not agree with the singular subject \"a pace.\""
+        }
+      }
+    },
+    {
+      "id": "M2H-23",
+      "position": 23,
+      "domain": "Expression of Ideas",
+      "skillCode": "EOI.TRN",
+      "skill": "Transitions",
+      "band": "Easy",
+      "rating": 2,
+      "targetSeconds": 45,
+      "key": "B",
+      "topic": "Terrace farming on steep hillsides",
+      "stimulus": {
+        "type": "prose",
+        "text": "Terrace farming reshapes steep hillsides into a staircase of level plots, each held in place by a retaining wall of packed earth or stone. ______, rainwater that would otherwise rush downhill and strip away topsoil instead pools briefly on each level plot, sinking into the soil rather than carrying it away."
+      },
+      "stem": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "However",
+        "B": "As a result",
+        "C": "For example",
+        "D": "In contrast"
+      },
+      "rationale": "The second sentence describes a direct consequence of terracing the hillside into level plots, so \"As a result\" correctly signals that cause-and-effect relationship.",
+      "distractors": {
+        "A": {
+          "trap": "wrong-logical-relation",
+          "explanation": "\"However\" signals contrast, but the second sentence continues and explains the first rather than opposing it."
+        },
+        "C": {
+          "trap": "wrong-logical-relation",
+          "explanation": "The second sentence is not a specific instance of terracing but a general consequence of it, so \"For example\" misstates the relationship."
+        },
+        "D": {
+          "trap": "wrong-logical-relation",
+          "explanation": "\"In contrast\" signals opposition, but the second sentence supports and follows from the first rather than contrasting with it."
+        }
+      }
+    },
+    {
+      "id": "M2H-24",
+      "position": 24,
+      "domain": "Expression of Ideas",
+      "skillCode": "EOI.TRN",
+      "skill": "Transitions",
+      "band": "Hard",
+      "rating": 4,
+      "targetSeconds": 75,
+      "key": "C",
+      "topic": "A fictional study of default choices in savings plans",
+      "stimulus": {
+        "type": "prose",
+        "text": "When a fictional company automatically enrolled new employees in a retirement savings plan, requiring them to opt out rather than opt in, participation rates rose from forty percent to ninety percent almost overnight. Economist Dara Whitcombe cautions that most employees kept the plan's default contribution rate rather than adjusting it to fit their actual income or goals. ______, automatic enrollment reliably raises participation, even though the contribution amounts it produces may not reflect what employees would otherwise have chosen for themselves."
+      },
+      "stem": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "Similarly",
+        "B": "Nevertheless",
+        "C": "Thus",
+        "D": "For instance"
+      },
+      "rationale": "The final sentence states the general conclusion supported by the two preceding points, the rise in enrollment and the caution about unadjusted contribution rates, so \"Thus\" correctly signals that it is a conclusion drawn from the evidence.",
+      "distractors": {
+        "A": {
+          "trap": "wrong-logical-relation",
+          "explanation": "\"Similarly\" signals a parallel example, but the final sentence is a summary of both preceding points, not an additional similar case."
+        },
+        "B": {
+          "trap": "overstated-relation",
+          "explanation": "\"Nevertheless\" overstates a conflict, but the final sentence is a consistent synthesis of the earlier points rather than a contradiction of them."
+        },
+        "D": {
+          "trap": "wrong-logical-relation",
+          "explanation": "\"For instance\" signals a specific example, but the final sentence is a general summary of the situation, not one particular case."
+        }
+      }
+    },
+    {
+      "id": "M2H-25",
+      "position": 25,
+      "domain": "Expression of Ideas",
+      "skillCode": "EOI.TRN",
+      "skill": "Transitions",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 60,
+      "key": "B",
+      "topic": "Catalysts in chemical reactions",
+      "stimulus": {
+        "type": "prose",
+        "text": "A catalyst speeds up a chemical reaction by providing an alternative pathway with a lower energy barrier, allowing more reacting molecules to have enough energy to react at a given temperature. ______, the catalyst itself is not consumed in the reaction and can, in principle, facilitate the same transformation indefinitely."
+      },
+      "stem": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "Therefore",
+        "B": "In addition",
+        "C": "Instead",
+        "D": "As a result"
+      },
+      "rationale": "The second sentence adds a further, distinct fact about catalysts, that they are not consumed, rather than stating a consequence of the first sentence, so \"In addition\" correctly signals this added point.",
+      "distractors": {
+        "A": {
+          "trap": "wrong-logical-relation",
+          "explanation": "\"Therefore\" signals that the second sentence follows as a consequence of the first, but not being consumed is a separate fact about catalysts, not a result of lowering the energy barrier."
+        },
+        "C": {
+          "trap": "wrong-logical-relation",
+          "explanation": "\"Instead\" signals substitution or contrast, but the second sentence adds to the first rather than replacing or opposing it."
+        },
+        "D": {
+          "trap": "wrong-logical-relation",
+          "explanation": "\"As a result\" signals causation, but the fact that a catalyst is not consumed is an additional property, not an effect of the energy barrier being lowered."
+        }
+      }
+    },
+    {
+      "id": "M2H-26",
+      "position": 26,
+      "domain": "Expression of Ideas",
+      "skillCode": "EOI.TRN",
+      "skill": "Transitions",
+      "band": "Hard",
+      "rating": 4,
+      "targetSeconds": 75,
+      "key": "A",
+      "topic": "Films before recorded sound",
+      "stimulus": {
+        "type": "prose",
+        "text": "Early filmmakers working before recorded sound could be synchronized to picture relied on intertitles, live musical accompaniment, and exaggerated gesture to convey meaning that dialogue would later carry directly. Some historians once treated this period chiefly as a technical limitation awaiting a solution. ______, a growing number of scholars now argue that the constraints themselves encouraged a visual inventiveness, in framing, lighting, and performance, that many sound films did not bother to preserve."
+      },
+      "stem": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "By contrast",
+        "B": "Similarly",
+        "C": "As a result",
+        "D": "In fact"
+      },
+      "rationale": "The passage shifts from an older view of the silent era as merely a limitation to a newer scholarly view that the constraints encouraged inventiveness, and \"By contrast\" correctly signals this shift between two opposing perspectives.",
+      "distractors": {
+        "B": {
+          "trap": "wrong-logical-relation",
+          "explanation": "\"Similarly\" signals agreement between the two views, but the newer scholarly argument opposes, rather than parallels, the older view described."
+        },
+        "C": {
+          "trap": "wrong-logical-relation",
+          "explanation": "\"As a result\" signals that the newer view follows as a consequence of the older one, but the two are presented as competing interpretations, not cause and effect."
+        },
+        "D": {
+          "trap": "wrong-logical-relation",
+          "explanation": "\"In fact\" typically reinforces or intensifies a preceding claim, but here the following sentence opposes the preceding view rather than confirming it."
+        }
+      }
+    },
+    {
+      "id": "M2H-27",
+      "position": 27,
+      "domain": "Expression of Ideas",
+      "skillCode": "EOI.RS",
+      "skill": "Rhetorical Synthesis",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 60,
+      "key": "A",
+      "topic": "Humpback whale song changing over seasons",
+      "stimulus": {
+        "type": "notes",
+        "intro": "While researching a topic, a student has taken the following notes:",
+        "notes": [
+          "Humpback whale populations in a given region often share a single, evolving song that all singing males in the area produce in a similar version each season.",
+          "Researchers recording a population off a fictional coastline documented one song type gradually replaced by a new version over about two years.",
+          "The new song sometimes appears to arrive from whales migrating in from neighboring regions, suggesting cultural transmission between populations.",
+          "Within a single breeding season, the shared song changes only gradually, with small variations added by individual singers rather than the song being revised all at once.",
+          "Researchers describe this pattern as a slow, ongoing revision rather than a sudden replacement each year."
+        ]
+      },
+      "stem": "The student wants to explain how humpback whale song changes within a single breeding season. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Within a single breeding season, the shared song of a whale population changes only gradually, as individual singers add small variations rather than replacing the song outright.",
+        "B": "Humpback whale song in a given region is typically shared by all singing males in that area during a season.",
+        "C": "New whale songs replace the old song within a single season because migrating whales from neighboring regions bring the change all at once.",
+        "D": "Over about two years, one song type recorded off a fictional coastline was gradually replaced by a new version."
+      },
+      "rationale": "This choice directly states, using the notes, that within a single season the shared song changes only gradually through small individual variations, which is exactly the within-season process the student wants to explain.",
+      "distractors": {
+        "B": {
+          "trap": "fails-goal",
+          "explanation": "This accurately reflects a note but describes only that the song is shared, not how it changes within a season, so it fails the stated goal."
+        },
+        "C": {
+          "trap": "misuses-notes",
+          "explanation": "This incorrectly combines the note about gradual within-season variation with the separate note about song transmission from migrating whales, misrepresenting the change as sudden and migration-driven."
+        },
+        "D": {
+          "trap": "partial-goal",
+          "explanation": "This describes change occurring over about two years, not within a single season, so it addresses the wrong time scale for the stated goal."
+        }
+      }
+    },
+    {
+      "id": "M2H-28",
+      "position": 28,
+      "domain": "Expression of Ideas",
+      "skillCode": "EOI.RS",
+      "skill": "Rhetorical Synthesis",
+      "band": "Hard",
+      "rating": 5,
+      "targetSeconds": 90,
+      "key": "B",
+      "topic": "Two fictional studies of bilingual children",
+      "stimulus": {
+        "type": "notes",
+        "intro": "While researching a topic, a student has taken the following notes:",
+        "notes": [
+          "Study 1, led by linguist Renata Boaventura, tested bilingual children aged four to six on tasks requiring them to ignore irrelevant information and found they outperformed monolingual peers on these tasks.",
+          "Study 2, led by linguist Omar Haddad, tested bilingual children aged four to six on the same category of tasks and found no significant difference from monolingual peers.",
+          "Boaventura's sample recruited children who used both languages daily at home; Haddad's sample recruited children who used a second language mainly at school.",
+          "Both studies used the same standardized test of attentional control.",
+          "Haddad suggests that frequency and context of daily language use, rather than bilingualism itself, may explain the differing results across the two studies."
+        ]
+      },
+      "stem": "The student wants to explain a possible reason the two studies reached different conclusions. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Both studies tested bilingual children aged four to six using the same standardized test of attentional control, though their results differed considerably.",
+        "B": "Boaventura's participants used both languages daily at home, while Haddad's participants used a second language mainly at school, a difference Haddad thinks may explain the results.",
+        "C": "Boaventura found that bilingual children outperformed monolingual children on tasks requiring them to ignore irrelevant information, a result Haddad's study did not replicate.",
+        "D": "Haddad's study found that bilingual children performed worse than monolingual children on tasks requiring them to ignore irrelevant information, unlike Boaventura's results."
+      },
+      "rationale": "This choice identifies the specific difference between the two samples' daily language use and cites Haddad's own proposed explanation, which together explain why the two studies might have reached different conclusions.",
+      "distractors": {
+        "A": {
+          "trap": "fails-goal",
+          "explanation": "This accurately notes a similarity between the two studies' methods and mentions that results differed but does not explain why they differed."
+        },
+        "C": {
+          "trap": "partial-goal",
+          "explanation": "This reports only Boaventura's finding and that Haddad's study did not replicate it, without explaining the sample difference behind the discrepancy."
+        },
+        "D": {
+          "trap": "misuses-notes",
+          "explanation": "The notes state Haddad found no significant difference between bilingual and monolingual children, not that bilingual children performed worse, so this misrepresents the notes."
+        }
+      }
+    },
+    {
+      "id": "M2H-29",
+      "position": 29,
+      "domain": "Expression of Ideas",
+      "skillCode": "EOI.RS",
+      "skill": "Rhetorical Synthesis",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 60,
+      "key": "D",
+      "topic": "Wind towers for passive cooling",
+      "stimulus": {
+        "type": "notes",
+        "intro": "While researching a topic, a student has taken the following notes:",
+        "notes": [
+          "Traditional wind towers, tall shafts open at the top, are used in some hot, dry regions to cool buildings without mechanical power.",
+          "The towers work by catching moving air at height and channeling it down into living spaces, while warm indoor air rises and exits through a separate opening.",
+          "In many traditional designs, the shaft's interior is lined with damp materials or passes over a small pool of water, cooling the descending air further through evaporation.",
+          "Modern architects have adapted the same basic principle in new buildings, sometimes to reduce reliance on powered air conditioning.",
+          "Wind towers work best in climates where the air is dry enough for evaporation to have a strong cooling effect."
+        ]
+      },
+      "stem": "The student wants to describe how traditional wind towers cool air beyond simply directing a breeze indoors. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Wind towers are tall shafts, open at the top, that catch moving air and channel it down into living spaces below.",
+        "B": "Modern architects have adapted the basic principle of wind towers to reduce reliance on powered air conditioning in new buildings.",
+        "C": "Wind towers work best in climates dry enough for evaporation to have a strong cooling effect.",
+        "D": "In many traditional designs, the descending air is cooled further as it passes over damp linings or a small pool of water, cooling it through evaporation."
+      },
+      "rationale": "This choice directly describes the additional cooling mechanism, evaporation from damp linings or a pool of water, that goes beyond simply channeling a breeze indoors, which is what the student wants to explain.",
+      "distractors": {
+        "A": {
+          "trap": "partial-goal",
+          "explanation": "This describes only the basic mechanism of catching and directing a breeze, not the additional cooling process the student wants to explain."
+        },
+        "B": {
+          "trap": "fails-goal",
+          "explanation": "This addresses modern adaptation of wind towers, not how traditional towers cool air beyond directing a breeze."
+        },
+        "C": {
+          "trap": "partial-goal",
+          "explanation": "This states a condition for the towers' effectiveness rather than describing the additional cooling mechanism itself."
+        }
+      }
+    },
+    {
+      "id": "M2H-30",
+      "position": 30,
+      "domain": "Expression of Ideas",
+      "skillCode": "EOI.RS",
+      "skill": "Rhetorical Synthesis",
+      "band": "Hard",
+      "rating": 5,
+      "targetSeconds": 90,
+      "key": "A",
+      "topic": "Two fictional studies of drought-tolerant plant varieties",
+      "stimulus": {
+        "type": "notes",
+        "intro": "While researching a topic, a student has taken the following notes:",
+        "notes": [
+          "Study 1, led by geneticist Simona Marchetti, compared two drought-tolerant maize varieties under controlled water restriction and found Variety K yielded more grain per plant than Variety R.",
+          "Study 2, led by geneticist Boitumelo Nkosi, compared the same two varieties under field conditions with naturally variable rainfall and found Variety R yielded more grain per plant than Variety K.",
+          "Marchetti's trial held soil type and water timing constant across all plants.",
+          "Nkosi's field trial included plots with differing soil types and irregular rainfall timing across the growing season.",
+          "Nkosi suggests that Variety R's advantage may depend on its performance under irregular, rather than tightly controlled, water conditions."
+        ]
+      },
+      "stem": "The student wants to explain why the two studies might have reached opposite conclusions about which maize variety yields more grain. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Marchetti's trial held water timing and soil type constant, while Nkosi's field trial had variable rainfall and differing soil types, conditions under which Nkosi says Variety R performs better.",
+        "B": "Marchetti's controlled trial found that Variety K yielded more grain per plant than Variety R, a result Nkosi's field trial did not replicate.",
+        "C": "Nkosi's field trial, conducted across plots with differing soil types and irregular rainfall timing, found that Variety R outyielded Variety K instead.",
+        "D": "Both studies compared the same two drought-tolerant maize varieties, Variety K and Variety R, though under very different testing conditions."
+      },
+      "rationale": "This choice compares the two studies' differing conditions, constant versus variable water and soil, and cites Nkosi's proposed explanation, together accounting for why the two studies reached opposite conclusions.",
+      "distractors": {
+        "B": {
+          "trap": "partial-goal",
+          "explanation": "This reports only Marchetti's result and that Nkosi's trial did not replicate it, without explaining the difference in conditions behind the discrepancy."
+        },
+        "C": {
+          "trap": "partial-goal",
+          "explanation": "This describes only Nkosi's conditions and result without connecting them to Marchetti's contrasting conditions to explain the opposite conclusions."
+        },
+        "D": {
+          "trap": "fails-goal",
+          "explanation": "This notes that conditions differed but does not specify how, so it does not actually explain why the conclusions about grain yield differed."
+        }
+      }
+    }
+  ]
+}

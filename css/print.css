@@ -1,0 +1,16 @@
+/* Loaded with media="print" by print.html and review.html. */
+@page { size: A4; margin: 16mm 14mm; }
+:root { --bg: #fff; --surface: #fff; --surface-2: #f2f2f2; --text: #000; --muted: #333; --border: #999; }
+body { background: #fff; color: #000; font-size: 11pt; }
+.no-print, .print-toolbar, .filters, nav.site { display: none !important; }
+.wrap { max-width: none; padding: 0; }
+.reading { font-size: 11pt; line-height: 1.5; }
+.p-item { grid-template-columns: 1fr 1fr; gap: 10mm; padding: 5mm 0; border-top: .5pt solid #999; }
+.p-annot { background: #f2f2f2; }
+.edition .module-break { break-before: page; page-break-before: always; }
+a { color: #000; text-decoration: none; }
+.card { box-shadow: none; border-color: #999; }
+.chart .bar.s0 { fill: #333; }
+.chart .bar.s1 { fill: #888; }
+.chart .bar.s2 { fill: #bbb; }
+.swatch.s0 { background: #333; } .swatch.s1 { background: #888; } .swatch.s2 { background: #bbb; }

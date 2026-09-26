@@ -1,0 +1,46 @@
+{
+  "title": "Reading and Writing Adaptive Practice Form",
+  "version": "1.0.0",
+  "disclaimer": "Unofficial, original practice material; not affiliated with or endorsed by College Board. SAT is a trademark of College Board. All passages, people, studies, and data are invented for this form.",
+  "section": "Reading and Writing",
+  "timing": {
+    "moduleSeconds": 2160,
+    "questionsPerModule": 30,
+    "note": "36 minutes per module keeps the real exam's pace of about 71 seconds per question."
+  },
+  "routing": {
+    "from": "m1",
+    "threshold": 18,
+    "total": 30,
+    "higher": "m2-higher",
+    "lower": "m2-lower",
+    "rule": "Module 1 raw score of 18 or more out of 30 (60%) routes to the higher Module 2; 17 or fewer routes to the lower Module 2.",
+    "note": "This is the routing rule for this practice form only. The real exam routes students with an item-response-theory model and does not publish a raw cutoff."
+  },
+  "modules": [
+    { "id": "m1", "label": "Module 1", "file": "data/modules/m1.json" },
+    { "id": "m2-higher", "label": "Module 2 — Higher route", "file": "data/modules/m2-higher.json" },
+    { "id": "m2-lower", "label": "Module 2 — Lower route", "file": "data/modules/m2-lower.json" }
+  ],
+  "blueprint": {
+    "domains": [
+      { "name": "Craft and Structure", "m1": 8, "m2": 7, "total": 15 },
+      { "name": "Information and Ideas", "m1": 8, "m2": 7, "total": 15 },
+      { "name": "Standard English Conventions", "m1": 7, "m2": 8, "total": 15 },
+      { "name": "Expression of Ideas", "m1": 7, "m2": 8, "total": 15 }
+    ],
+    "difficulty": {
+      "m1": { "Easy": 6, "Medium": 14, "Hard": 10 },
+      "m2-higher": { "Easy": 3, "Medium": 13, "Hard": 14 },
+      "m2-lower": { "Easy": 9, "Medium": 14, "Hard": 7 },
+      "bank": { "Easy": 18, "Medium": 41, "Hard": 31 }
+    }
+  },
+  "deviations": [
+    "60 questions (30 per module) as specified for this form; the real Reading and Writing section has 54 (27 per module, including unscored pretest questions).",
+    "36 minutes per module instead of 32, keeping the real pace per question.",
+    "Routing uses a stated raw-score threshold instead of an item-response-theory model.",
+    "Scores are reported as raw scores with domain and skill breakdowns; no 200-800 scaled score is estimated.",
+    "Each domain has exactly 15 items (25%); the real exam weights domains slightly differently."
+  ]
+}

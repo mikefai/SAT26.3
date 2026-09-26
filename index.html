@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reading and Writing Practice Form</title>
+  <meta name="description" content="Original, unofficial adaptive Reading and Writing practice form in the Digital SAT format: two 30-question modules with an adaptive second module.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232455c3'/%3E%3Cpath d='M9 22V10h7a4 4 0 010 8h-7M15 18l6 4' stroke='white' stroke-width='2.6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <span class="eyebrow">Unofficial practice · Reading and Writing</span>
+      <h1>Reading and Writing Adaptive Practice Form</h1>
+      <p class="muted">An original practice form in the Digital SAT Reading and Writing format. You take Module 1, and your Module 1 score decides whether Module 2 is the higher or lower route.</p>
+      <div class="actions" id="start-actions">
+        <a class="btn primary" href="test.html?new=1" id="start-btn">Start the practice form</a>
+      </div>
+    </section>
+
+    <div class="grid-2">
+      <section class="card">
+        <h2 style="margin-top:0">Format</h2>
+        <table class="simple">
+          <tbody>
+            <tr><th scope="row">Section</th><td>Reading and Writing</td></tr>
+            <tr><th scope="row">Modules</th><td>2 (Module 2 is adaptive)</td></tr>
+            <tr><th scope="row">Questions</th><td>30 per module · 60 total</td></tr>
+            <tr><th scope="row">Time</th><td>36 minutes per module</td></tr>
+            <tr><th scope="row">Question type</th><td>Multiple choice, 4 options, one short passage per question</td></tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="card">
+        <h2 style="margin-top:0">Routing rule</h2>
+        <p><strong>18 or more correct</strong> out of 30 in Module 1 (60%) → <strong>Module 2, higher route</strong>.</p>
+        <p><strong>17 or fewer correct</strong> → <strong>Module 2, lower route</strong>.</p>
+        <p class="muted small">This threshold is the rule for this practice form only. The real exam uses a statistical model and publishes no raw cutoff.</p>
+      </section>
+    </div>
+
+    <section class="card" style="margin-top:16px">
+      <h2 style="margin-top:0">What each module covers</h2>
+      <p class="small muted">Questions appear in domain order within each module. In each domain group the easiest question comes first and the hardest comes last. Two hard questions are never placed next to each other.</p>
+      <div class="table-scroll">
+        <table class="simple">
+          <thead><tr><th>Domain</th><th>Skills</th><th>Module 1</th><th>Module 2</th><th>Total</th></tr></thead>
+          <tbody>
+            <tr><td>Craft and Structure</td><td>Words in context · text structure and purpose · cross-text connections</td><td>8</td><td>7</td><td>15</td></tr>
+            <tr><td>Information and Ideas</td><td>Central ideas and details · command of evidence (textual, quantitative) · inferences</td><td>8</td><td>7</td><td>15</td></tr>
+            <tr><td>Standard English Conventions</td><td>Boundaries · form, structure, and sense</td><td>7</td><td>8</td><td>15</td></tr>
+            <tr><td>Expression of Ideas</td><td>Transitions · rhetorical synthesis</td><td>7</td><td>8</td><td>15</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="small muted" style="margin-bottom:0">Difficulty across all 90 items: 20% easy · 45.6% medium · 34.4% hard. Each item has a skill tag, a difficulty rating from 1 to 5, and a target solving time.</p>
+    </section>
+
+    <section class="card" style="margin-top:16px">
+      <h2 style="margin-top:0">Printable editions</h2>
+      <ul class="link-list">
+        <li><span>Module 1 — student edition (clean, unannotated)</span><a href="print.html?module=m1">Open</a></li>
+        <li><span>Module 2, higher route — student edition</span><a href="print.html?module=m2-higher">Open</a></li>
+        <li><span>Module 2, lower route — student edition</span><a href="print.html?module=m2-lower">Open</a></li>
+        <li><span>Teacher edition — answer keys, ratings, and distractor teardowns</span><a href="print.html?module=all&amp;key=1">Open</a></li>
+      </ul>
+    </section>
+
+    <p class="disclaimer">Unofficial, original practice material; not affiliated with or endorsed by College Board. SAT is a trademark of College Board. All passages, people, studies, and data are invented for this form.</p>
+  </main>
+  <script>
+    (function () {
+      var state = null, result = null;
+      try { state = JSON.parse(localStorage.getItem('rwpf.state.v1') || 'null'); } catch (e) {}
+      try { result = JSON.parse(localStorage.getItem('rwpf.result.v1') || 'null'); } catch (e) {}
+      var box = document.getElementById('start-actions');
+      if (state && state.v === 1) {
+        var label = state.phase === 'm1' ? 'Module 1' : 'Module 2';
+        var a = document.createElement('a');
+        a.className = 'btn primary';
+        a.href = 'test.html';
+        a.textContent = 'Resume (' + label + ')';
+        box.insertBefore(a, box.firstChild);
+        var start = document.getElementById('start-btn');
+        start.className = 'btn';
+        start.textContent = 'Start over';
+      }
+      if (result) {
+        var r = document.createElement('a');
+        r.className = 'btn';
+        r.href = 'review.html';
+        r.textContent = 'View last score report';
+        box.appendChild(r);
+      }
+    })();
+  </script>
+</body>
+</html>

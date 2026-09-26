@@ -1,0 +1,1242 @@
+{
+  "moduleId": "m1",
+  "title": "Reading and Writing — Module 1",
+  "route": null,
+  "timeLimitSeconds": 2160,
+  "items": [
+    {
+      "id": "M1-01",
+      "position": 1,
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "skillCode": "CAS.WIC",
+      "band": "Easy",
+      "rating": 1,
+      "targetSeconds": 35,
+      "key": "A",
+      "topic": "Seed dispersal by ants",
+      "stimulus": {
+        "type": "prose",
+        "text": "Many woodland plants produce seeds with a small, fat-rich attachment called an elaiosome. Ants carry these seeds back to their nests, eat the elaiosome, and leave the seed itself unharmed in a nutrient-rich underground chamber. This partnership helps the plant ______ its seeds far from the parent, where competition for light and water is less intense."
+      },
+      "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": {
+        "A": "disperse",
+        "B": "preserve",
+        "C": "camouflage",
+        "D": "germinate"
+      },
+      "rationale": "The text describes ants carrying seeds away from the parent plant to a new underground location, reducing competition near the parent. \"Disperse\" precisely names this outcome of movement away from the source.",
+      "distractors": {
+        "B": {
+          "trap": "wrong-connotation",
+          "explanation": "\"Preserve\" wrongly emphasizes keeping the seed safe rather than the key idea of moving it far from the parent plant."
+        },
+        "C": {
+          "trap": "out-of-scope",
+          "explanation": "The text never mentions hiding seeds from predators, so \"camouflage\" introduces an idea the passage does not address."
+        },
+        "D": {
+          "trap": "illogical-in-context",
+          "explanation": "Germination is a later growth stage, not something the ants' transport of the seed accomplishes; it does not fit \"far from the parent.\""
+        }
+      }
+    },
+    {
+      "id": "M1-02",
+      "position": 2,
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "skillCode": "CAS.WIC",
+      "band": "Easy",
+      "rating": 2,
+      "targetSeconds": 45,
+      "key": "D",
+      "topic": "A ceramicist who repairs pottery with visible gold seams",
+      "stimulus": {
+        "type": "prose",
+        "text": "A ceramicist named Ines Vural mends broken bowls by tracing each crack with a fine brush dipped in gold lacquer. Rather than hiding the damage, she lets the glittering seams stay visible, treating each fracture as part of the object's history rather than a flaw to ______."
+      },
+      "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": {
+        "A": "illustrate",
+        "B": "repair",
+        "C": "exaggerate",
+        "D": "conceal"
+      },
+      "rationale": "The text states that Vural does the opposite of \"hiding the damage,\" letting the seams stay visible. \"Conceal\" restates \"hiding\" and completes the contrast the sentence sets up.",
+      "distractors": {
+        "A": {
+          "trap": "illogical-in-context",
+          "explanation": "\"A flaw to illustrate\" does not make sense here; nothing in the text suggests she is demonstrating or depicting the flaw."
+        },
+        "B": {
+          "trap": "common-meaning",
+          "explanation": "Repair is what she does to the bowl overall, but the sentence is specifically about how she treats the flaw itself, which she leaves visible rather than erasing."
+        },
+        "C": {
+          "trap": "wrong-connotation",
+          "explanation": "\"Exaggerate\" implies making the flaw more dramatic than it is, which contradicts the calm, accepting tone of letting a crack simply remain visible."
+        }
+      }
+    },
+    {
+      "id": "M1-03",
+      "position": 3,
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "skillCode": "CAS.WIC",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 60,
+      "key": "A",
+      "topic": "Fiction: a lighthouse keeper's daughter watching a storm",
+      "stimulus": {
+        "type": "prose",
+        "text": "From the gallery of the lighthouse, Mirela watched the storm arrive in stages: first a graying of the horizon, then a hush that made the gulls go quiet, and finally the wind itself, which arrived not as a gust but as a steady, ______ pressure that bent the sea grass flat and rattled the panes. She had felt ordinary winds before, but this one seemed to lean against the tower with the patient weight of something that intended to stay."
+      },
+      "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": {
+        "A": "relentless",
+        "B": "occasional",
+        "C": "playful",
+        "D": "faint"
+      },
+      "rationale": "The passage describes a wind that bends sea grass flat, rattles panes, and leans on the tower with \"the patient weight of something that intended to stay.\" \"Relentless\" matches this unbroken, persistent force.",
+      "distractors": {
+        "B": {
+          "trap": "contradicts-text",
+          "explanation": "\"Occasional\" implies the wind comes and goes, but the text describes a \"steady\" pressure that intends to stay, the opposite of intermittent."
+        },
+        "C": {
+          "trap": "wrong-connotation",
+          "explanation": "\"Playful\" suggests a light, teasing wind, which clashes with a force strong enough to bend grass flat and rattle windowpanes."
+        },
+        "D": {
+          "trap": "contradicts-text",
+          "explanation": "\"Faint\" describes a weak force, but the described wind bends grass flat and rattles panes, showing considerable strength."
+        }
+      }
+    },
+    {
+      "id": "M1-04",
+      "position": 4,
+      "domain": "Craft and Structure",
+      "skill": "Words in Context",
+      "skillCode": "CAS.WIC",
+      "band": "Hard",
+      "rating": 4,
+      "targetSeconds": 75,
+      "key": "B",
+      "topic": "Contact languages that form in port cities",
+      "stimulus": {
+        "type": "prose",
+        "text": "In port cities where merchants, sailors, and dockworkers speaking mutually unintelligible languages needed to trade quickly, a simplified contact language often emerged: a small vocabulary drawn from several tongues, arranged with minimal grammar, sufficient for negotiating prices and cargo but not for extended conversation. Linguists once dismissed such languages as ______ systems, degraded versions of \"real\" languages rather than structures in their own right. More recent study has shown that these contact languages follow consistent internal rules, however rudimentary, and can, within a generation, develop into fuller languages spoken natively by children born in the port."
+      },
+      "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+      "options": {
+        "A": "innovative",
+        "B": "deficient",
+        "C": "versatile",
+        "D": "ancient"
+      },
+      "stemNote": null,
+      "rationale": "The blank is followed by an appositive that restates it: \"degraded versions of 'real' languages.\" \"Deficient\" matches this dismissive judgment, which the final sentence then overturns with newer research.",
+      "distractors": {
+        "A": {
+          "trap": "contradicts-text",
+          "explanation": "\"Innovative\" is a positive judgment, but the sentence describes an old, dismissive view that these languages were \"degraded,\" the opposite of innovative."
+        },
+        "C": {
+          "trap": "out-of-scope",
+          "explanation": "\"Versatile\" does not match the negative appositive \"degraded versions,\" and versatility is never the linguists' dismissive claim being described."
+        },
+        "D": {
+          "trap": "illogical-in-context",
+          "explanation": "The passage is about newly emerging contact languages, not their age, so \"ancient\" does not fit the point being made about their perceived legitimacy."
+        }
+      }
+    },
+    {
+      "id": "M1-05",
+      "position": 5,
+      "domain": "Craft and Structure",
+      "skill": "Text Structure and Purpose",
+      "skillCode": "CAS.TSP",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 60,
+      "key": "B",
+      "topic": "Original poem: a river in winter",
+      "stimulus": {
+        "type": "poem",
+        "title": "The River in January",
+        "attribution": "From Anwar Sekibo's collection *Field Notes* (fictional)",
+        "text": "The river keeps its argument beneath the ice,\na low, unbroken mutter no one above can parse.\nWhat looked like stillness is only patience\nwearing a colder coat than usual—\nwater still bound for the sea, only slower,\nstill carving the bank it cannot see,\nstill answering gravity's oldest question\nin a language of pressure and drift.\nCome March, the ice will admit what it always knew:\nit was never the river. Only its winter alias."
+      },
+      "stem": "Which choice best states the main purpose of the text?",
+      "options": {
+        "A": "To argue that winter permanently changes the character of a river",
+        "B": "To suggest that beneath its frozen surface, the river continues its motion and purpose unchanged",
+        "C": "To describe the process by which ice forms on a moving river",
+        "D": "To contrast the sound of a frozen river with the sound of the sea"
+      },
+      "rationale": "The poem repeats \"still\" to insist the river keeps moving and carving beneath the ice, and closes by calling the ice merely the river's \"winter alias,\" a temporary disguise rather than a lasting change.",
+      "distractors": {
+        "A": {
+          "trap": "too-extreme",
+          "explanation": "The poem calls the ice only a temporary \"alias\" that will be shed by March, the opposite of a permanent change to the river."
+        },
+        "C": {
+          "trap": "too-narrow",
+          "explanation": "Ice formation is never described as a process in the poem; the poem's focus is what continues beneath the ice, not how the ice itself forms."
+        },
+        "D": {
+          "trap": "out-of-scope",
+          "explanation": "The sea is mentioned only as the river's destination; the poem never compares or contrasts the sounds of the river and the sea."
+        }
+      }
+    },
+    {
+      "id": "M1-06",
+      "position": 6,
+      "domain": "Craft and Structure",
+      "skill": "Text Structure and Purpose",
+      "skillCode": "CAS.TSP",
+      "band": "Hard",
+      "rating": 4,
+      "targetSeconds": 75,
+      "key": "D",
+      "topic": "Tardigrades surviving desiccation",
+      "stimulus": {
+        "type": "prose",
+        "text": "Tardigrades, microscopic animals that live in moss and lichen, can survive losing nearly all the water in their bodies. As a pond dries, a tardigrade curls into a compact form called a tun, replacing lost water with a sugar-like molecule that keeps its internal structures from collapsing. {u}In this state, its metabolism slows to a small fraction of normal, and it can remain dormant for years, only reviving when moisture returns.{/u} Researchers still debate how completely the tun's internal chemistry halts, but no one disputes that the animal can wait, sometimes for a very long time, for the world to become wet again."
+      },
+      "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+      "options": {
+        "A": "It introduces a competing hypothesis that the rest of the text will go on to reject",
+        "B": "It summarizes the scientific debate mentioned in the final sentence",
+        "C": "It provides the only evidence offered that tardigrades can survive drying out",
+        "D": "It explains the physiological consequence of the tun state described just before it"
+      },
+      "rationale": "The underlined sentence follows the description of a tardigrade forming a tun and explains what results: metabolism slows drastically and the animal remains dormant, a direct physiological consequence of entering that state.",
+      "distractors": {
+        "A": {
+          "trap": "wrong-function",
+          "explanation": "No hypothesis is introduced or later rejected; the sentence explains an effect of the tun state, not a competing idea the passage argues against."
+        },
+        "B": {
+          "trap": "half-right",
+          "explanation": "A debate is mentioned afterward, but it concerns tun chemistry, not the metabolic slowdown the underlined sentence describes, so it does not summarize that later debate."
+        },
+        "C": {
+          "trap": "too-extreme",
+          "explanation": "Earlier sentences already establish that tardigrades survive drying by forming a tun, so calling this \"the only evidence\" overstates the underlined sentence's role."
+        }
+      }
+    },
+    {
+      "id": "M1-07",
+      "position": 7,
+      "domain": "Craft and Structure",
+      "skill": "Cross-Text Connections",
+      "skillCode": "CAS.CTC",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 70,
+      "key": "C",
+      "topic": "Car-free city streets: two researchers' views",
+      "stimulus": {
+        "type": "paired",
+        "text1": "Text 1\nUrban researcher Dario Colacino argues that removing cars from city centers mainly benefits public health: fewer vehicle emissions lower rates of respiratory illness, and the extra space once used for parking can become small parks that encourage walking. For Colacino, the primary value of car-free streets is measured in the air residents breathe and the steps they take.",
+        "text2": "Text 2\nEconomist Priya Nandakumar contends that the strongest case for car-free streets is commercial. When through-traffic disappears, foot traffic to small shops rises, since pedestrians linger and browse in ways that drivers passing by do not. Nandakumar points to surveys showing that shopkeepers on newly car-free blocks report higher weekday sales within a year."
+      },
+      "stem": "Which choice best describes a difference in how the authors of Text 1 and Text 2 view the primary benefit of car-free streets?",
+      "options": {
+        "A": "Colacino focuses on economic gains, while Nandakumar focuses on environmental gains",
+        "B": "Colacino and Nandakumar both emphasize the commercial benefits of car-free streets, though they cite different evidence",
+        "C": "Colacino emphasizes health and environmental gains, while Nandakumar emphasizes commercial gains for local businesses",
+        "D": "Colacino and Nandakumar agree that car-free streets mainly help large retail chains attract customers"
+      },
+      "rationale": "Colacino's passage centers on emissions, respiratory illness, and walking, all health- and environment-related, while Nandakumar's passage centers on shop foot traffic and sales, a commercial concern.",
+      "distractors": {
+        "A": {
+          "trap": "reverses-relationship",
+          "explanation": "This reverses which author holds which view: Colacino is the one focused on health and environment, and Nandakumar is the one focused on commerce, not the other way around."
+        },
+        "B": {
+          "trap": "contradicts-text",
+          "explanation": "Colacino's passage never mentions shops or sales; he focuses on emissions and walking, so he does not share Nandakumar's commercial emphasis."
+        },
+        "D": {
+          "trap": "out-of-scope",
+          "explanation": "Nandakumar discusses small shops, not large retail chains, and Colacino never discusses retail sales at all."
+        }
+      }
+    },
+    {
+      "id": "M1-08",
+      "position": 8,
+      "domain": "Craft and Structure",
+      "skill": "Cross-Text Connections",
+      "skillCode": "CAS.CTC",
+      "band": "Hard",
+      "rating": 5,
+      "targetSeconds": 100,
+      "key": "C",
+      "topic": "Where the Moon's water came from: two hypotheses",
+      "stimulus": {
+        "type": "paired",
+        "text1": "Text 1\nPlanetary scientist Ilse Vantongeren proposes that the water detected in lunar minerals arrived long after the Moon formed, delivered by the same population of icy comets and water-rich asteroids that struck the young Moon over hundreds of millions of years. In her model, the Moon began essentially dry, and any water now locked in its rocks reflects this later bombardment rather than the Moon's original composition.",
+        "text2": "Text 2\nGeochemist Femi Okoro counters that trace water sealed inside volcanic glass beads, formed when magma erupted onto the lunar surface, could not have survived contact with an outside impactor without being lost to vaporization. He argues instead that this water was already dissolved in the Moon's interior when it formed and simply rose to the surface during early volcanic activity, meaning the Moon was never entirely dry."
+      },
+      "stem": "Based on the texts, how would Femi Okoro most likely respond to Ilse Vantongeren's claim that the Moon began essentially dry?",
+      "options": {
+        "A": "He would agree, since volcanic glass beads could only trap water delivered by later impacts",
+        "B": "He would agree that impacts added most lunar water, but argue the timing was earlier than Vantongeren proposes",
+        "C": "He would disagree, pointing to water sealed in volcanic glass as evidence that water was present in the Moon's interior from its formation",
+        "D": "He would argue that the disagreement cannot be resolved without samples from the Moon's far side"
+      },
+      "rationale": "Okoro argues that water trapped in volcanic glass was already dissolved in the Moon's interior when it formed and rose up through early volcanism, directly contradicting Vantongeren's claim that the Moon began dry and gained water only from later impacts.",
+      "distractors": {
+        "A": {
+          "trap": "contradicts-text",
+          "explanation": "Okoro argues the opposite: that glass-trapped water could not have survived an impact and therefore must predate any bombardment, not that it proves impacts delivered the water."
+        },
+        "B": {
+          "trap": "half-right",
+          "explanation": "Okoro does not accept an impact-based origin at all; he rejects the impactor explanation entirely rather than merely revising its timing."
+        },
+        "D": {
+          "trap": "out-of-scope",
+          "explanation": "Neither text mentions samples from the Moon's far side or suggests the disagreement depends on them; this introduces an idea absent from both passages."
+        }
+      }
+    },
+    {
+      "id": "M1-09",
+      "position": 9,
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
+      "skillCode": "INI.CID",
+      "band": "Easy",
+      "rating": 2,
+      "targetSeconds": 45,
+      "key": "B",
+      "topic": "Fiction: a baker opening her shop before dawn",
+      "stimulus": {
+        "type": "prose",
+        "text": "Long before the street lamps switched off, Noor unlocked the bakery and lit the ovens, moving through the familiar dark by memory rather than sight. She measured flour by feel, judged the proof of the dough by its faint sweet smell, and only turned on the lights once the first loaves were already rising, as if brightness were a reward the bread had to earn before the rest of the town woke to smell it."
+      },
+      "stem": "Which choice best states the main idea of the text?",
+      "options": {
+        "A": "Noor prefers baking in darkness because she distrusts artificial light",
+        "B": "Noor's early-morning routine relies on skill and memory rather than on visible light",
+        "C": "Noor lights the ovens before the street lamps switch off each morning",
+        "D": "Noor turns on the lights late in order to save on the cost of electricity"
+      },
+      "rationale": "The text shows Noor working \"by memory rather than sight,\" measuring flour \"by feel\" and judging dough \"by its faint sweet smell,\" all before turning on any lights, showing that her routine depends on practiced skill rather than illumination.",
+      "distractors": {
+        "A": {
+          "trap": "too-extreme",
+          "explanation": "The text never says Noor distrusts light; it only shows her working skillfully without needing it yet, not avoiding it out of suspicion."
+        },
+        "C": {
+          "trap": "too-narrow",
+          "explanation": "This restates a single detail about timing rather than the broader idea that her routine depends on memory and feel instead of sight."
+        },
+        "D": {
+          "trap": "out-of-scope",
+          "explanation": "The text never mentions the cost of electricity or any motive of saving money; this reason is never stated."
+        }
+      }
+    },
+    {
+      "id": "M1-10",
+      "position": 10,
+      "domain": "Information and Ideas",
+      "skill": "Central Ideas and Details",
+      "skillCode": "INI.CID",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 60,
+      "key": "A",
+      "topic": "Salt caravans across a desert in earlier centuries",
+      "stimulus": {
+        "type": "prose",
+        "text": "For centuries, caravans of hundreds of camels carried slabs of salt mined from desert flats across hundreds of kilometers to inland markets, where salt was scarce and valuable for preserving food. The journey took weeks and followed routes known chiefly to guides who had memorized the position of wells often two or three days apart, since a wrong turn could mean the caravan running out of water before reaching the next one. Modern roads and refrigeration have made such caravans largely unnecessary, but a few still cross the same routes, less for profit now than to keep the old skills of navigation and salt-cutting from disappearing entirely."
+      },
+      "stem": "According to the text, why was accurate knowledge of well locations essential to the caravans?",
+      "options": {
+        "A": "Because missing a well could leave the caravan without enough water before reaching the next one",
+        "B": "Because wells marked the boundary between different desert territories",
+        "C": "Because the guides were paid according to how many wells they located",
+        "D": "Because salt slabs had to be kept far away from any standing water"
+      },
+      "rationale": "The text states that guides memorized well positions because \"a wrong turn could mean the caravan running out of water before reaching the next one,\" directly linking well knowledge to the caravan's water supply.",
+      "distractors": {
+        "B": {
+          "trap": "out-of-scope",
+          "explanation": "The text never mentions wells marking territorial boundaries; this idea is not present in the passage."
+        },
+        "C": {
+          "trap": "out-of-scope",
+          "explanation": "The text never discusses how guides were paid, so this motive is invented rather than drawn from the passage."
+        },
+        "D": {
+          "trap": "out-of-scope",
+          "explanation": "The text never suggests salt needed to be kept away from water sources; it only discusses the caravan's need to reach wells for drinking water."
+        }
+      }
+    },
+    {
+      "id": "M1-11",
+      "position": 11,
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence: Textual",
+      "skillCode": "INI.COET",
+      "band": "Hard",
+      "rating": 4,
+      "targetSeconds": 75,
+      "key": "B",
+      "topic": "Song dialects among birds on neighbouring islands",
+      "stimulus": {
+        "type": "prose",
+        "text": "On a chain of small islands, a species of songbird sings a distinct \"dialect\" on each island: the same basic song structure, but with local differences in pitch pattern and note length. Researchers hypothesize that these dialects arise because young birds learn their songs by listening to adult males on their natal island, and few birds disperse far enough across open water to hear songs from other islands, so each island's song drifts independently over generations."
+      },
+      "stem": "Which finding, if true, would most directly support the researchers' hypothesis?",
+      "options": {
+        "A": "Birds on islands close to the mainland sing louder songs than birds on remote islands",
+        "B": "Genetic testing shows that birds rarely move between islands, and young birds raised in captivity away from adult males never develop a normal song",
+        "C": "The islands in the chain were formed by volcanic activity at different times over the last million years",
+        "D": "Birds on every island respond aggressively when they hear recordings of songs from other islands"
+      },
+      "rationale": "The hypothesis rests on two claims: birds rarely disperse between islands, and young birds learn their song from listening to adult males. Finding B provides direct evidence for both parts at once, supporting the full hypothesis.",
+      "distractors": {
+        "A": {
+          "trap": "out-of-scope",
+          "explanation": "Volume has nothing to do with the hypothesized cause of dialect differences, which concerns learning and limited dispersal, not loudness."
+        },
+        "C": {
+          "trap": "out-of-scope",
+          "explanation": "The timing of volcanic island formation is unrelated to whether birds learn songs locally or disperse between islands."
+        },
+        "D": {
+          "trap": "true-but-irrelevant",
+          "explanation": "Aggressive responses to unfamiliar songs might be plausible, but this does not test whether dialects arise from limited dispersal and local learning, the actual mechanism proposed."
+        }
+      }
+    },
+    {
+      "id": "M1-12",
+      "position": 12,
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence: Textual",
+      "skillCode": "INI.COET",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 60,
+      "key": "B",
+      "topic": "A fictional novel's unreliable narrator",
+      "stimulus": {
+        "type": "prose",
+        "text": "Literary critics often describe the narrator of Yusuf Adeyemi's novel *The Borrowed House* (fictional) as unreliable, since he frequently reports events in ways that conflict with details he himself later reveals, undermining his own earlier account without seeming to notice the contradiction."
+      },
+      "stem": "Which quotation from the novel most effectively illustrates the claim that the narrator undermines his own earlier account without seeming to notice?",
+      "options": {
+        "A": "\"I have never told a lie in my life, though I have occasionally allowed people to believe convenient things.\"",
+        "B": "\"I was certainly alone that evening, though of course Mireille was there too, pouring the tea as always.\"",
+        "C": "\"The house, as I recall it, had four windows facing the garden, or perhaps it was three.\"",
+        "D": "\"Later, I would learn that everything I believed about that night was wrong.\""
+      },
+      "rationale": "Quotation B states \"I was certainly alone\" and then immediately mentions Mireille's presence as an unremarkable fact, contradicting the claim of solitude without any acknowledgment that the two statements clash.",
+      "distractors": {
+        "A": {
+          "trap": "half-right",
+          "explanation": "This shows the narrator shaping how others perceive him, but he openly admits doing so, which is the opposite of contradicting himself \"without seeming to notice.\""
+        },
+        "C": {
+          "trap": "true-but-irrelevant",
+          "explanation": "This shows vague memory about a minor detail, not a case where the narrator's own words contradict a claim he has already made."
+        },
+        "D": {
+          "trap": "contradicts-text",
+          "explanation": "This shows the narrator explicitly recognizing that he was wrong, the opposite of undermining himself \"without seeming to notice.\""
+        }
+      }
+    },
+    {
+      "id": "M1-13",
+      "position": 13,
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence: Quantitative",
+      "skillCode": "INI.COEQ",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 70,
+      "key": "D",
+      "topic": "Share of electricity from renewable sources in four fictional regions",
+      "stimulus": {
+        "type": "table",
+        "text": "A regional energy office compiled the share of electricity generated from renewable sources in four regions in 2010 and again in 2023.",
+        "table": {
+          "caption": "Share of Electricity from Renewable Sources in Four Regions",
+          "columns": [
+            "Region",
+            "2010 (%)",
+            "2023 (%)"
+          ],
+          "rows": [
+            [
+              "Calvera",
+              "8",
+              "35"
+            ],
+            [
+              "Norhaven",
+              "22",
+              "40"
+            ],
+            [
+              "Tessyl",
+              "15",
+              "16"
+            ],
+            [
+              "Umbrahi",
+              "5",
+              "44"
+            ]
+          ]
+        }
+      },
+      "stem": "Which choice most effectively uses data from the table to complete the statement: \"Between 2010 and 2023, the largest increase in renewable electricity share, ______, occurred in Umbrahi.\"",
+      "options": {
+        "A": "an increase of 1 percentage point",
+        "B": "an increase of 18 percentage points",
+        "C": "an increase of 27 percentage points",
+        "D": "an increase of 39 percentage points"
+      },
+      "rationale": "Umbrahi's share rose from 5% to 44%, an increase of 39 percentage points, which the table shows is larger than the change in any other region.",
+      "distractors": {
+        "A": {
+          "trap": "misreads-data",
+          "explanation": "A 1-point increase describes Tessyl (15% to 16%), not Umbrahi."
+        },
+        "B": {
+          "trap": "misreads-data",
+          "explanation": "An 18-point increase describes Norhaven (22% to 40%), not Umbrahi."
+        },
+        "C": {
+          "trap": "misreads-data",
+          "explanation": "A 27-point increase describes Calvera (8% to 35%), not Umbrahi."
+        }
+      }
+    },
+    {
+      "id": "M1-14",
+      "position": 14,
+      "domain": "Information and Ideas",
+      "skill": "Command of Evidence: Quantitative",
+      "skillCode": "INI.COEQ",
+      "band": "Hard",
+      "rating": 4,
+      "targetSeconds": 85,
+      "key": "C",
+      "topic": "Bee visits to flowers of different colours",
+      "stimulus": {
+        "type": "chart",
+        "text": "Researchers recorded the average number of bee visits per hour to flowers of four colors, separately for morning and afternoon hours.",
+        "chart": {
+          "caption": "Bee Visits per Hour to Flowers of Different Colors, Morning and Afternoon",
+          "xLabel": "Flower Color",
+          "yLabel": "Average Bee Visits per Hour",
+          "categories": [
+            "Violet",
+            "Yellow",
+            "White",
+            "Red"
+          ],
+          "series": [
+            {
+              "label": "Morning",
+              "values": [
+                58,
+                41,
+                19,
+                7
+              ]
+            },
+            {
+              "label": "Afternoon",
+              "values": [
+                33,
+                52,
+                22,
+                8
+              ]
+            }
+          ]
+        }
+      },
+      "stem": "Which choice best describes data from the graph that support the claim that bees' color preference shifts over the course of the day?",
+      "options": {
+        "A": "Red flowers received the fewest visits of the four colors in both the morning and the afternoon",
+        "B": "White flowers were visited more often in the afternoon than in the morning, rising from 19 to 22 visits",
+        "C": "Violet flowers, the most visited color in the morning, were visited less often than yellow flowers by the afternoon",
+        "D": "Yellow flowers were visited more often than violet flowers throughout the entire day"
+      },
+      "rationale": "In the morning, violet leads with 58 visits versus yellow's 41; by the afternoon, yellow leads with 52 visits versus violet's 33. This reversal in which color is preferred most directly supports a shift in preference over the day.",
+      "distractors": {
+        "A": {
+          "trap": "true-but-irrelevant",
+          "explanation": "Red staying least popular in both periods shows no change at all, so it does not support a claim about a shifting preference."
+        },
+        "B": {
+          "trap": "true-but-irrelevant",
+          "explanation": "This is accurate but describes only a small, secondary change; it does not capture the more direct evidence of a reversal between the two leading colors."
+        },
+        "D": {
+          "trap": "misreads-data",
+          "explanation": "This is false for the morning period, when violet (58) was visited more than yellow (41); the graph shows the opposite of a constant yellow lead."
+        }
+      }
+    },
+    {
+      "id": "M1-15",
+      "position": 15,
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
+      "skillCode": "INI.INF",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 60,
+      "key": "A",
+      "topic": "How river deltas build and lose land",
+      "stimulus": {
+        "type": "prose",
+        "text": "A river delta grows only when the sediment carried downstream and deposited at its mouth arrives faster than the surrounding land subsides and the sea erodes it away. Dams built upstream trap much of that sediment behind their walls, so rivers that once built new land at their mouths now often carry a fraction of their former sediment load to the coast. Left with less new material arriving each year but the same slow subsidence and wave erosion still at work, many such deltas have stopped growing and, in some cases, ______."
+      },
+      "stem": "Which choice most logically completes the text?",
+      "options": {
+        "A": "have begun losing land instead",
+        "B": "have begun trapping sediment behind new dams",
+        "C": "have started to grow faster than before",
+        "D": "have become entirely resistant to erosion"
+      },
+      "rationale": "With less sediment arriving but subsidence and erosion unchanged, the delta's land-building process can no longer keep pace, so the logical outcome is a net loss of land rather than continued growth.",
+      "distractors": {
+        "B": {
+          "trap": "out-of-scope",
+          "explanation": "Dams are built by people upstream; a delta itself does not \"trap sediment behind new dams,\" so this action does not belong to the delta."
+        },
+        "C": {
+          "trap": "contradicts-text",
+          "explanation": "The passage explains that less sediment is arriving, which would cause slower growth or shrinkage, not faster growth."
+        },
+        "D": {
+          "trap": "too-extreme",
+          "explanation": "The text states that subsidence and wave erosion are \"still at work,\" so deltas becoming \"entirely resistant to erosion\" contradicts this ongoing process."
+        }
+      }
+    },
+    {
+      "id": "M1-16",
+      "position": 16,
+      "domain": "Information and Ideas",
+      "skill": "Inferences",
+      "skillCode": "INI.INF",
+      "band": "Hard",
+      "rating": 5,
+      "targetSeconds": 90,
+      "key": "A",
+      "topic": "Handwriting versus typing and memory for lecture notes",
+      "stimulus": {
+        "type": "prose",
+        "text": "In a study comparing students who took lecture notes by hand with those who typed notes on laptops, typists generally recorded more words verbatim, while handwriters recorded fewer words but paraphrased more of what they heard. On a test given immediately afterward, the two groups performed similarly on questions asking students to recall specific facts. On a test given a week later, however, handwriters outperformed typists specifically on questions requiring students to explain concepts in their own words, not on questions asking for exact figures or dates. The researchers noted that paraphrasing while listening requires briefly holding an idea in mind and restating it, a process that overlaps with how information is thought to move from short-term into longer-term memory. Based on the text, a week after the lecture, students who had typed their notes would most likely still perform as well as handwriters on a test that ______."
+      },
+      "stem": "Which choice most logically completes the text?",
+      "options": {
+        "A": "asked them to recall a specific date or figure mentioned in the lecture",
+        "B": "asked them to explain a concept from the lecture in their own words",
+        "C": "was given immediately after the lecture rather than a week later",
+        "D": "required no verbatim recall of any kind"
+      },
+      "rationale": "The text specifies that handwriters' week-later advantage appeared \"specifically on questions requiring students to explain concepts,\" not on questions about exact figures or dates, so typists would likely remain competitive on that narrower kind of question even a week later.",
+      "distractors": {
+        "B": {
+          "trap": "contradicts-text",
+          "explanation": "The text states handwriters outperformed typists on exactly this kind of question a week later, so typists would not perform as well here."
+        },
+        "C": {
+          "trap": "out-of-scope",
+          "explanation": "The stem specifies a test given \"a week after the lecture,\" so an option describing an immediate test does not answer the question being asked."
+        },
+        "D": {
+          "trap": "too-broad",
+          "explanation": "The text ties typists' strength to verbatim recall of specific facts like dates and figures, not to a broad, undefined category of 'no verbatim recall of any kind.'"
+        }
+      }
+    },
+    {
+      "id": "M1-17",
+      "position": 17,
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
+      "skillCode": "SEC.BND",
+      "band": "Easy",
+      "rating": 1,
+      "targetSeconds": 35,
+      "key": "C",
+      "topic": "Formation of volcanic islands",
+      "stimulus": {
+        "type": "prose",
+        "text": "Volcanic islands begin as underwater eruptions along a single point on the ocean ______ each eruption deposits another thin layer of hardened rock atop the last, and over many centuries the layers pile high enough to break the surface as an island."
+      },
+      "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "floor, each eruption deposits",
+        "B": "floor each eruption deposits",
+        "C": "floor. Each eruption deposits",
+        "D": "floor, and, each eruption deposits"
+      },
+      "rationale": "\"Volcanic islands begin as underwater eruptions along a single point on the ocean floor\" and \"each eruption deposits another thin layer...\" are both independent clauses, so a period followed by a capitalized word correctly separates them.",
+      "distractors": {
+        "A": {
+          "trap": "comma-splice",
+          "explanation": "A comma alone cannot join two independent clauses; this creates a comma splice."
+        },
+        "B": {
+          "trap": "run-on",
+          "explanation": "With no punctuation at all between the two independent clauses, this creates a run-on (fused) sentence."
+        },
+        "D": {
+          "trap": "unneeded-punctuation",
+          "explanation": "The stray comma after \"and\" inserts unnecessary punctuation between the conjunction and the clause it introduces."
+        }
+      }
+    },
+    {
+      "id": "M1-18",
+      "position": 18,
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
+      "skillCode": "SEC.BND",
+      "band": "Easy",
+      "rating": 2,
+      "targetSeconds": 45,
+      "key": "D",
+      "topic": "Early keyboard instruments and how their sound changed",
+      "stimulus": {
+        "type": "prose",
+        "text": "The harpsichord, an instrument that dominated European keyboard music for nearly two ______ produces sound by plucking its strings rather than striking them, a mechanism that gives it a bright, percussive tone quite different from the piano that eventually replaced it."
+      },
+      "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "centuries. Produces",
+        "B": "centuries; produces",
+        "C": "centuries—produces",
+        "D": "centuries, produces"
+      },
+      "rationale": "The phrase \"an instrument that dominated European keyboard music for nearly two centuries\" is a nonessential element opened with a comma right after \"harpsichord,\" so it must be closed with a matching comma before the sentence continues with its verb, \"produces.\"",
+      "distractors": {
+        "A": {
+          "trap": "fragment",
+          "explanation": "Ending the nonessential element with a period would leave \"Produces sound by plucking its strings...\" as a fragment lacking its own stated subject."
+        },
+        "B": {
+          "trap": "colon-semicolon-misuse",
+          "explanation": "A semicolon must join two independent clauses, but everything before it is only a noun phrase interrupted by a nonessential element, not a complete independent clause."
+        },
+        "C": {
+          "trap": "unbalanced-nonessential",
+          "explanation": "The nonessential element opened with a comma, so closing it with a dash instead creates mismatched punctuation marks."
+        }
+      }
+    },
+    {
+      "id": "M1-19",
+      "position": 19,
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
+      "skillCode": "SEC.BND",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 60,
+      "key": "A",
+      "topic": "Bamboo scaffolding on tall buildings",
+      "stimulus": {
+        "type": "prose",
+        "text": "Bamboo scaffolding, still used on many construction sites despite the availability of steel alternatives, is prized by builders for being lightweight, quickly assembled, and flexible enough to bend rather than snap under sudden ______ it must be replaced more often than steel, since bamboo weakens with repeated exposure to rain and sun."
+      },
+      "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "loads, but",
+        "B": "loads but",
+        "C": "loads; but",
+        "D": "loads, but,"
+      },
+      "rationale": "The two independent clauses—one describing bamboo's advantages and one describing its need for replacement—are properly joined by a comma followed by the coordinating conjunction \"but.\"",
+      "distractors": {
+        "B": {
+          "trap": "run-on",
+          "explanation": "A coordinating conjunction joining two independent clauses needs a comma before it; omitting the comma here creates a run-on sentence."
+        },
+        "C": {
+          "trap": "colon-semicolon-misuse",
+          "explanation": "A semicolon should not be paired with a coordinating conjunction like \"but\"; the two are redundant ways of marking the same joint."
+        },
+        "D": {
+          "trap": "unneeded-punctuation",
+          "explanation": "The extra comma after \"but\" wrongly separates the conjunction from the clause it introduces, splitting the subject \"it\" away from its own clause opener."
+        }
+      }
+    },
+    {
+      "id": "M1-20",
+      "position": 20,
+      "domain": "Standard English Conventions",
+      "skill": "Boundaries",
+      "skillCode": "SEC.BND",
+      "band": "Hard",
+      "rating": 4,
+      "targetSeconds": 75,
+      "key": "A",
+      "topic": "Feathered dinosaur fossils",
+      "stimulus": {
+        "type": "prose",
+        "text": "Fossils of Ventopteryx mirabilis, a small, ground-dwelling dinosaur whose tail preserves individual filaments fine enough to be mistaken for downy ______ have persuaded many paleontologists that feathering began as insulation long before any dinosaur lineage took to gliding or flight."
+      },
+      "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "feathers, have",
+        "B": "feathers. Have",
+        "C": "feathers; have",
+        "D": "feathers—have"
+      },
+      "rationale": "The subject \"Fossils of Ventopteryx mirabilis\" is followed by a nonessential appositive opened with a comma; that appositive must close with a matching comma before the verb \"have persuaded\" completes the sentence.",
+      "distractors": {
+        "B": {
+          "trap": "fragment",
+          "explanation": "Ending with a period would cut off \"Have persuaded many paleontologists...\" as a fragment, since its subject appears only in the sentence before the period."
+        },
+        "C": {
+          "trap": "colon-semicolon-misuse",
+          "explanation": "A semicolon requires an independent clause on each side, but \"Fossils of Ventopteryx mirabilis, a small... downy feathers\" is not itself a complete independent clause."
+        },
+        "D": {
+          "trap": "unbalanced-nonessential",
+          "explanation": "The nonessential appositive was opened with a comma after the species name, so closing it with a dash instead creates mismatched punctuation."
+        }
+      }
+    },
+    {
+      "id": "M1-21",
+      "position": 21,
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "skillCode": "SEC.FSS",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 60,
+      "key": "D",
+      "topic": "A fictional village savings cooperative",
+      "stimulus": {
+        "type": "prose",
+        "text": "In many villages, a small group of neighbors ______ money into a shared fund each month, drawing from it in turns to cover large expenses like a roof repair or a wedding, an arrangement that lets members access more money earlier than they could by saving alone."
+      },
+      "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "pool",
+        "B": "pooling",
+        "C": "have pooled",
+        "D": "pools"
+      },
+      "rationale": "The subject of the verb is the singular noun \"group,\" not the intervening plural noun \"neighbors,\" so the verb must take the singular present-tense form \"pools,\" matching the present-tense verbs \"lets\" later in the sentence.",
+      "distractors": {
+        "A": {
+          "trap": "agreement-error",
+          "explanation": "\"Pool\" is a plural verb form that wrongly agrees with the nearby plural noun \"neighbors\" instead of the true singular subject \"group.\""
+        },
+        "B": {
+          "trap": "wrong-verb-form",
+          "explanation": "\"Pooling\" is a nonfinite form and cannot serve as the sentence's main verb; a finite verb is required here."
+        },
+        "C": {
+          "trap": "tense-shift",
+          "explanation": "The present perfect \"have pooled\" shifts away from the habitual present tense established by \"lets\" later in the sentence, and it also fails to agree with the singular subject \"group.\""
+        }
+      }
+    },
+    {
+      "id": "M1-22",
+      "position": 22,
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "skillCode": "SEC.FSS",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 60,
+      "key": "A",
+      "topic": "Why iron rusts faster near the sea",
+      "stimulus": {
+        "type": "prose",
+        "text": "Exposed to the salty mist that drifts inland from the sea, ______ rust noticeably faster than identical pieces kept even a few kilometers away, because chloride ions in the mist speed up the electrochemical reaction that converts iron to rust."
+      },
+      "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "iron fixtures near the coast",
+        "B": "the rate of rusting is",
+        "C": "it has been found that",
+        "D": "engineers have noticed that"
+      },
+      "rationale": "The opening phrase \"Exposed to the salty mist\" must modify the noun that follows it. Only \"iron fixtures near the coast\" logically names something that can itself be exposed to mist and rust.",
+      "distractors": {
+        "B": {
+          "trap": "dangling-modifier",
+          "explanation": "\"The rate of rusting\" cannot logically be the thing \"exposed to the salty mist\"; a rate is not a physical object that rusts."
+        },
+        "C": {
+          "trap": "dangling-modifier",
+          "explanation": "\"It has been found that\" leaves the modifying phrase with nothing sensible to attach to, since no exposed object follows."
+        },
+        "D": {
+          "trap": "dangling-modifier",
+          "explanation": "\"Engineers\" are not the ones exposed to mist and rusting; the modifier should attach to the iron objects, not to the people observing them."
+        }
+      }
+    },
+    {
+      "id": "M1-23",
+      "position": 23,
+      "domain": "Standard English Conventions",
+      "skill": "Form, Structure, and Sense",
+      "skillCode": "SEC.FSS",
+      "band": "Hard",
+      "rating": 5,
+      "targetSeconds": 90,
+      "key": "C",
+      "topic": "A fictional painter's mineral pigments",
+      "stimulus": {
+        "type": "prose",
+        "text": "Elena Bortolussi, a painter who ground her own pigments from mineral ores rather than buying them ready-made from suppliers, believed that ______ intensity depended as much on the size to which she ground the mineral as on the mineral's chemical identity, since coarser grains of the same ore could scatter light quite differently from finer ones and appear as an altogether different hue on the canvas."
+      },
+      "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "options": {
+        "A": "a colors",
+        "B": "colors'",
+        "C": "a color's",
+        "D": "colors's"
+      },
+      "rationale": "The sentence discusses the intensity belonging to a single color, so the singular article \"a\" must pair with the singular possessive \"color's,\" correctly showing that the intensity belongs to one color.",
+      "distractors": {
+        "A": {
+          "trap": "possessive-plural-confusion",
+          "explanation": "\"A colors\" pairs a singular article with a plural noun and no possessive marker at all, which cannot correctly show that the intensity belongs to a color."
+        },
+        "B": {
+          "trap": "possessive-plural-confusion",
+          "explanation": "\"Colors'\" is a plural possessive, which does not agree with the singular article \"a\" that precedes the blank."
+        },
+        "D": {
+          "trap": "possessive-plural-confusion",
+          "explanation": "\"Colors's\" is not a standard English possessive form; a plural noun already ending in -s takes an apostrophe alone, not an added -'s."
+        }
+      }
+    },
+    {
+      "id": "M1-24",
+      "position": 24,
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
+      "skillCode": "EOI.TRN",
+      "band": "Easy",
+      "rating": 2,
+      "targetSeconds": 45,
+      "key": "C",
+      "topic": "How cacti store water",
+      "stimulus": {
+        "type": "prose",
+        "text": "A cactus stores water in its thick, fleshy stem, which can expand like an accordion as it fills after rain. ______, a waxy coating on the stem's surface slows the rate at which that stored water evaporates in the desert heat."
+      },
+      "stem": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "However,",
+        "B": "Therefore,",
+        "C": "In addition,",
+        "D": "Instead,"
+      },
+      "rationale": "The second sentence adds a further water-conserving feature, the waxy coating, alongside the stem's water storage described in the first sentence, so an addition transition is correct.",
+      "distractors": {
+        "A": {
+          "trap": "wrong-logical-relation",
+          "explanation": "There is no contrast between the two sentences; both describe features that help the cactus conserve water, so \"however\" misrepresents their relationship."
+        },
+        "B": {
+          "trap": "overstated-relation",
+          "explanation": "The waxy coating is not a consequence caused by the stem's expansion; the two are separate, coexisting features, not cause and effect."
+        },
+        "D": {
+          "trap": "wrong-logical-relation",
+          "explanation": "\"Instead\" suggests the second feature replaces the first, but the passage presents both the stem's storage and the waxy coating as features that operate together."
+        }
+      }
+    },
+    {
+      "id": "M1-25",
+      "position": 25,
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
+      "skillCode": "EOI.TRN",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 60,
+      "key": "B",
+      "topic": "Whistled languages in mountain valleys",
+      "stimulus": {
+        "type": "prose",
+        "text": "In some mountain villages separated by deep valleys, herders developed whistled versions of their language that carry over distances too great for shouted speech, and outsiders who hear the whistling for the first time often assume it is an entirely separate, unrelated language. ______, the whistled form is a direct transposition of the spoken one: pitch and rhythm stand in for vowels and consonants, so any fluent speaker of the local language can, with practice, learn to understand it."
+      },
+      "stem": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "For example,",
+        "B": "In fact,",
+        "C": "Similarly,",
+        "D": "As a result,"
+      },
+      "rationale": "The second sentence corrects the mistaken impression described in the first sentence, showing that despite sounding separate, the whistled form is really just the spoken language transposed, which is exactly the function of \"in fact.\"",
+      "distractors": {
+        "A": {
+          "trap": "wrong-logical-relation",
+          "explanation": "The second sentence does not give an example of outsiders' mistaken assumption; it corrects that assumption, which is a different relationship."
+        },
+        "C": {
+          "trap": "wrong-logical-relation",
+          "explanation": "\"Similarly\" signals a comparison between two similar things, but the second sentence is correcting a misconception, not drawing a parallel."
+        },
+        "D": {
+          "trap": "overstated-relation",
+          "explanation": "The whistled form being a transposition of speech is not a result caused by outsiders' mistaken assumption; the two ideas are not linked by cause and effect."
+        }
+      }
+    },
+    {
+      "id": "M1-26",
+      "position": 26,
+      "domain": "Expression of Ideas",
+      "skill": "Transitions",
+      "skillCode": "EOI.TRN",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 60,
+      "key": "D",
+      "topic": "Base isolation that protects buildings in earthquakes",
+      "stimulus": {
+        "type": "prose",
+        "text": "Traditional buildings are bolted directly to their foundations, so when the ground shakes, that motion transfers almost immediately into the structure itself. Base-isolated buildings instead rest on flexible bearings between the building and its foundation, letting the foundation move with the ground while the structure above sways far more slowly and gently. ______, base isolation can keep a hospital's critical equipment functioning throughout an earthquake severe enough to damage a conventional building of the same height."
+      },
+      "stem": "Which choice completes the text with the most logical transition?",
+      "options": {
+        "A": "Nonetheless,",
+        "B": "For instance,",
+        "C": "Similarly,",
+        "D": "As a result,"
+      },
+      "rationale": "The final sentence describes a practical outcome that follows from the mechanism just described: because the structure sways more gently, it can keep sensitive equipment intact during a severe earthquake, a relationship best signaled by \"as a result.\"",
+      "distractors": {
+        "A": {
+          "trap": "wrong-logical-relation",
+          "explanation": "There is no contrast between the bearings' gentler sway and the hospital's continued function; the second follows logically from the first rather than opposing it."
+        },
+        "B": {
+          "trap": "wrong-logical-relation",
+          "explanation": "The final sentence does not illustrate one instance among several already given; it states a broader consequence of the mechanism described."
+        },
+        "C": {
+          "trap": "wrong-logical-relation",
+          "explanation": "\"Similarly\" would signal a parallel case, but the final sentence describes a result of the isolation mechanism, not a separate, comparable example."
+        }
+      }
+    },
+    {
+      "id": "M1-27",
+      "position": 27,
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
+      "skillCode": "EOI.RS",
+      "band": "Hard",
+      "rating": 4,
+      "targetSeconds": 75,
+      "key": "D",
+      "topic": "Finding exoplanets by the transit method",
+      "stimulus": {
+        "type": "notes",
+        "intro": "While researching a topic, a student has taken the following notes:",
+        "notes": [
+          "The transit method detects a planet by measuring the tiny, regular dip in a star's brightness as the planet passes in front of it.",
+          "The size of the brightness dip depends on how large the planet is relative to its star; bigger planets produce a larger dip.",
+          "The method works best when a planet's orbit happens to be aligned so that it passes directly between its star and telescopes on Earth.",
+          "Because this alignment is required, the transit method misses many planets whose orbits are tilted away from our line of sight.",
+          "Once a transit is detected, astronomers can also measure how long the dip lasts to estimate the planet's orbital period."
+        ]
+      },
+      "stem": "The student wants to explain one limitation of the transit method for detecting exoplanets. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "The transit method detects a planet by measuring a dip in a star's brightness that occurs when the planet passes in front of it.",
+        "B": "The brightness dip is larger for bigger planets, which makes very small planets especially difficult for astronomers to detect.",
+        "C": "Once a transit is detected, astronomers can measure the dip's duration to calculate the planet's orbital period.",
+        "D": "Because the method requires a planet's orbit to be aligned with Earth's line of sight, it misses planets whose orbits are tilted differently."
+      },
+      "rationale": "The notes state directly that the method \"works best when a planet's orbit happens to be aligned\" and that, because of this, it \"misses many planets whose orbits are tilted away,\" which is exactly the limitation the student wants to explain.",
+      "distractors": {
+        "A": {
+          "trap": "fails-goal",
+          "explanation": "This describes how the method works in general rather than stating any limitation of it."
+        },
+        "B": {
+          "trap": "misuses-notes",
+          "explanation": "The notes state only that dip size depends on planet size, not that small planets are especially hard to detect; this claim goes beyond what the notes say."
+        },
+        "C": {
+          "trap": "fails-goal",
+          "explanation": "This describes an additional capability of the method, estimating orbital period, rather than a limitation."
+        }
+      }
+    },
+    {
+      "id": "M1-28",
+      "position": 28,
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
+      "skillCode": "EOI.RS",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 60,
+      "key": "B",
+      "topic": "A fictional study of community gardens",
+      "stimulus": {
+        "type": "notes",
+        "intro": "While researching a topic, a student has taken the following notes:",
+        "notes": [
+          "A team led by sociologist Bram Okafor surveyed residents of a mid-sized city about participation in shared community gardens.",
+          "Residents who gardened in a shared plot for at least one growing season reported speaking with an average of six more neighbors by name than they had the year before.",
+          "The survey also found that garden plots closer to a building entrance were tended more consistently than plots at the far end of a lot.",
+          "Okafor's team suggests that the shared task of gardening, rather than the garden's produce, is what mainly drives new neighborly contact.",
+          "Participants ranked \"meeting neighbors\" as a less important motivation than \"growing fresh food\" when asked directly why they had joined."
+        ]
+      },
+      "stem": "The student wants to highlight a contrast between what motivated residents to join the community garden and what the study found the gardens actually produced socially. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Okafor's team found that garden plots nearer a building entrance were tended more consistently than those farther away.",
+        "B": "Although participants ranked meeting neighbors as a less important reason for joining than growing food, gardeners ended up speaking with an average of six more neighbors by name than before.",
+        "C": "Bram Okafor led a survey of residents about their participation in shared community gardens.",
+        "D": "Okafor's team believes the shared task of gardening, more than the produce itself, drives new contact with neighbors."
+      },
+      "rationale": "Option B pairs the stated motivation (growing food ranked above meeting neighbors) with the study's actual social outcome (six more neighbors known by name), directly showing the contrast the student wants to highlight.",
+      "distractors": {
+        "A": {
+          "trap": "fails-goal",
+          "explanation": "This detail about plot location and tending has nothing to do with residents' motivations or the social outcome of gardening."
+        },
+        "C": {
+          "trap": "fails-goal",
+          "explanation": "This only gives background about the survey and does not address motivation or social outcomes at all."
+        },
+        "D": {
+          "trap": "partial-goal",
+          "explanation": "This gives the researchers' interpretation of the cause of new contact but omits the contrasting fact that residents themselves ranked meeting neighbors as a lesser motivation."
+        }
+      }
+    },
+    {
+      "id": "M1-29",
+      "position": 29,
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
+      "skillCode": "EOI.RS",
+      "band": "Medium",
+      "rating": 3,
+      "targetSeconds": 60,
+      "key": "B",
+      "topic": "Early movable-type printing",
+      "stimulus": {
+        "type": "notes",
+        "intro": "While researching a topic, a student has taken the following notes:",
+        "notes": [
+          "Early movable-type systems used individually cast metal characters that could be arranged, inked, and reused for different pages.",
+          "Compared with carving a whole new wooden block for every page, movable type let printers reuse the same characters across many different texts.",
+          "Setting a page of individual metal characters by hand still took a skilled compositor considerable time, often longer than carving a small block.",
+          "Movable type became efficient mainly for long print runs, where the same set of characters could be reused across large numbers of copies before being reset.",
+          "Workshops that printed only a few copies of many different short documents sometimes kept using carved blocks well after movable type was available."
+        ]
+      },
+      "stem": "The student wants to explain why some print workshops kept using carved wooden blocks after movable type became available. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Movable-type systems used individually cast metal characters that could be arranged and reused for different pages.",
+        "B": "Because movable type was efficient mainly for long runs of the same text, workshops producing many short, different documents in small quantities sometimes found carved blocks more practical.",
+        "C": "Setting a page of metal characters by hand took a skilled compositor considerable time.",
+        "D": "Carving a wooden block required cutting an entirely new block for every page of every document."
+      },
+      "rationale": "The notes state that movable type was efficient mainly for long print runs, and that workshops printing small quantities of many different short documents kept using blocks, which together explain exactly why those workshops resisted switching.",
+      "distractors": {
+        "A": {
+          "trap": "fails-goal",
+          "explanation": "This describes how movable type works generally and does not explain why any workshop would prefer carved blocks instead."
+        },
+        "C": {
+          "trap": "partial-goal",
+          "explanation": "This notes that setting type took time, but alone it does not connect that fact to the specific situation of workshops printing many short, low-quantity documents."
+        },
+        "D": {
+          "trap": "misuses-notes",
+          "explanation": "This states a drawback of carved blocks, the opposite of explaining why some workshops preferred them; it does not support the stated goal."
+        }
+      }
+    },
+    {
+      "id": "M1-30",
+      "position": 30,
+      "domain": "Expression of Ideas",
+      "skill": "Rhetorical Synthesis",
+      "skillCode": "EOI.RS",
+      "band": "Hard",
+      "rating": 5,
+      "targetSeconds": 90,
+      "key": "C",
+      "topic": "Two fictional studies of octopus camouflage",
+      "stimulus": {
+        "type": "notes",
+        "intro": "While researching a topic, a student has taken the following notes:",
+        "notes": [
+          "A laboratory study by Marisol Andrade placed octopuses in tanks with patterned backgrounds and found they changed skin pattern within one second, using vision alone, since blindfolded octopuses failed to match new patterns.",
+          "A field study by Tobias Rehn observed wild octopuses on reefs and found some pattern changes occurred even when the animal's eyes were plausibly not aimed at the surface, suggesting light-sensing cells in the skin might play a role.",
+          "Andrade's tanks used uniform, high-contrast patterns, while Rehn's reef sites had irregular, low-contrast natural textures.",
+          "Both researchers agree that vision through the eyes is the primary driver of rapid camouflage, but they disagree about whether skin alone can detect and respond to light without any input from the eyes.",
+          "Rehn has proposed a follow-up lab test using reef-like irregular backgrounds to see whether blindfolded octopuses can still partially match natural, low-contrast textures."
+        ]
+      },
+      "stem": "The student wants to explain a difference between Andrade's and Rehn's studies that could account for their differing conclusions about skin-based light sensing. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "options": {
+        "A": "Andrade found that blindfolded octopuses failed to match new patterns, confirming that vision drives rapid camouflage.",
+        "B": "Rehn proposed a follow-up lab test using reef-like backgrounds to test whether blindfolded octopuses can match natural textures.",
+        "C": "Andrade's laboratory tanks used uniform, high-contrast patterns, while Rehn's reef sites involved irregular, low-contrast natural textures, a difference in setting that could explain why skin-based sensing seemed relevant only in the field.",
+        "D": "Both researchers agree that vision through the eyes is the primary driver of rapid camouflage."
+      },
+      "rationale": "Option C identifies the concrete methodological difference between the two studies, pattern contrast and setting, and ties it directly to why one study found evidence of skin-based sensing and the other did not, fulfilling the stated goal.",
+      "distractors": {
+        "A": {
+          "trap": "partial-goal",
+          "explanation": "This reports only Andrade's finding and does not identify any difference between the two studies that would explain their differing conclusions."
+        },
+        "B": {
+          "trap": "fails-goal",
+          "explanation": "This describes a future proposed test rather than explaining an existing difference between the two studies already conducted."
+        },
+        "D": {
+          "trap": "fails-goal",
+          "explanation": "This point of agreement is accurate to the notes but does not address the difference between the studies that could explain their disagreement about skin-based sensing."
+        }
+      }
+    }
+  ]
+}
